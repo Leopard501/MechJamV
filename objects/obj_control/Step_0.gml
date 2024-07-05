@@ -3,22 +3,30 @@ if (sel_grab == -1) exit;
 switch (grab_dir) {
 	case DIR.RIGHT:
 		with (grabbers[sel_grab]) {
-			x += max_speed;
+			if (x < max_x) {
+				x += x_speed;
+			}
 		}
 		break;
 	case DIR.LEFT:
 		with (grabbers[sel_grab]) {
-			x -= max_speed;	
+			if (x > min_x) {
+				x -= x_speed;	
+			}
 		}
 		break;
 	case DIR.UP:
 		with (grabbers[sel_grab]) {
-			y -= max_speed;
+			if (y > min_y) {
+				y -= y_speed;
+			}
 		}
 		break;
 	case DIR.DOWN:
 		with (grabbers[sel_grab]) {
-			y += max_speed;	
+			if (y < max_y) {
+				y += y_speed;	
+			}
 		}
 		break;
 }
