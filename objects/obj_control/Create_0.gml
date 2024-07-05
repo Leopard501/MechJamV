@@ -12,15 +12,16 @@ enum FLUID {
 	OIL,
 }
 
+global.control = self;
+
 grabbers = [
 	inst_g1,
 	inst_g2,
 	inst_g3,
 ]
 
-global.control = self;
-
 sel_grab = -1;
+grab_speed = 1;
 grab_dir = DIR.NONE
 do_scrape = false
 do_pump = false
