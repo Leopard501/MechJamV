@@ -32,3 +32,9 @@ is_grab = function() {
 	if (sel_grab == -1) return false;
 	return grabbers[sel_grab].grabbed;	
 }
+
+set_grab = function(_new_val) {
+	if (sel_grab == -1) return;
+	
+	grabbers[sel_grab].grabbed = _new_val;
+}
