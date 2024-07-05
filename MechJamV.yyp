@@ -36,6 +36,7 @@
   "name":"MechJamV",
   "resources":[
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
+    {"id":{"name":"obj_grab_lever","path":"objects/obj_grab_lever/obj_grab_lever.yy",},},
     {"id":{"name":"obj_grab_switch","path":"objects/obj_grab_switch/obj_grab_switch.yy",},},
     {"id":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},},
     {"id":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},},
@@ -45,6 +46,7 @@
     {"id":{"name":"lib_vectors","path":"scripts/lib_vectors/lib_vectors.yy",},},
     {"id":{"name":"spr_control","path":"sprites/spr_control/spr_control.yy",},},
     {"id":{"name":"spr_gantry","path":"sprites/spr_gantry/spr_gantry.yy",},},
+    {"id":{"name":"spr_lever","path":"sprites/spr_lever/spr_lever.yy",},},
     {"id":{"name":"spr_stick","path":"sprites/spr_stick/spr_stick.yy",},},
     {"id":{"name":"spr_switch","path":"sprites/spr_switch/spr_switch.yy",},},
     {"id":{"name":"spr_welder","path":"sprites/spr_welder/spr_welder.yy",},},

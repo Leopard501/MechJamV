@@ -27,3 +27,8 @@ do_scrape = false
 do_pump = false
 do_weld = false
 active_fluid = FLUID.FUEL
+
+is_grab = function() {
+	if (sel_grab == -1) return false;
+	return grabbers[sel_grab].grabbed;	
+}
