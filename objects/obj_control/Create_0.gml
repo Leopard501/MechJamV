@@ -18,6 +18,8 @@ grabbers = [
 	inst_g3,
 ]
 
+global.control = self;
+
 sel_grab = -1;
 grab_dir = DIR.NONE
 do_scrape = false
