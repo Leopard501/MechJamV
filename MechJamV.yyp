@@ -35,7 +35,9 @@
   },
   "name":"MechJamV",
   "resources":[
-    {"id":{"name":"obj_gantry","path":"objects/obj_gantry/obj_gantry.yy",},},
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
+    {"id":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},},
+    {"id":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"id":{"name":"lib_vectors","path":"scripts/lib_vectors/lib_vectors.yy",},},
     {"id":{"name":"spr_gantry","path":"sprites/spr_gantry/spr_gantry.yy",},},

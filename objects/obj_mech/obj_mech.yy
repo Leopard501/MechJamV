@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gantry",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_mech",
+  "eventList":[],
   "managed":true,
-  "name":"obj_gantry",
+  "name":"obj_mech",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -25,16 +23,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"max_speed","filters":[],"listItems":[],"multiselect":false,"name":"max_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"6","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_gantry",
-    "path":"sprites/spr_gantry/spr_gantry.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
