@@ -23,7 +23,7 @@
   ],
   "name":"spr_welder",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":32,
+    "yorigin":23,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
