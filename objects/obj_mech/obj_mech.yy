@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_mech_placeholder",
+    "path":"sprites/spr_mech_placeholder/spr_mech_placeholder.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

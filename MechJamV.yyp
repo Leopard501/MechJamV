@@ -47,6 +47,7 @@
     {"id":{"name":"spr_control","path":"sprites/spr_control/spr_control.yy",},},
     {"id":{"name":"spr_gantry","path":"sprites/spr_gantry/spr_gantry.yy",},},
     {"id":{"name":"spr_lever","path":"sprites/spr_lever/spr_lever.yy",},},
+    {"id":{"name":"spr_mech_placeholder","path":"sprites/spr_mech_placeholder/spr_mech_placeholder.yy",},},
     {"id":{"name":"spr_stick","path":"sprites/spr_stick/spr_stick.yy",},},
     {"id":{"name":"spr_switch","path":"sprites/spr_switch/spr_switch.yy",},},
     {"id":{"name":"spr_welder","path":"sprites/spr_welder/spr_welder.yy",},},
