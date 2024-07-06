@@ -7,6 +7,5 @@ if (other.grabbed) {
 		parent.release();
 	}
 	
-	parent = other;
-	parent.acquire(self);
+	other.acquire(self);
 }
