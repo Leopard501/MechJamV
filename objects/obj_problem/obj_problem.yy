@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mech",
+  "%Name":"obj_problem",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_mech",
+  "name":"obj_problem",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mech_placeholder",
-    "path":"sprites/spr_mech_placeholder/spr_mech_placeholder.yy",
+    "name":"spr_problem_placeholder",
+    "path":"sprites/spr_problem_placeholder/spr_problem_placeholder.yy",
   },
   "spriteMaskId":null,
   "visible":true,
