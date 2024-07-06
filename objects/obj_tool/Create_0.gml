@@ -1,1 +1,2 @@
-parent = -1;
+grabber = -1;
+activated = false;

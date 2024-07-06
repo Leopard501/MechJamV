@@ -1,8 +1,8 @@
-if (parent != -1) {
-	x = parent.x;
-	y = parent.y;
+if (grabber != -1) {
+	x = grabber.x;
+	y = grabber.y;
 	
-	if (!parent.grabbed) {
-		parent = -1;	
+	if (!grabber.grabbed) {
+		grabber = -1;	
 	}
 }

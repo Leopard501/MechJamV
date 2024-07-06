@@ -1,10 +1,10 @@
 /// @description Grab
 
-if (other == parent) exit;
+if (other == grabber) exit;
 
 if (other.grabbed) {
-	if (parent != -1) {
-		parent.release();
+	if (grabber != -1) {
+		grabber.release();
 	}
 	
 	other.acquire(self);
