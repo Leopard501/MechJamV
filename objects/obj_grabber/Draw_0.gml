@@ -5,7 +5,9 @@ if (grabbed) {
 }
 
 if (!mirrored) {
-	draw_line(x, y - sprite_get_bbox_top(sprite_index), x, min_y - sprite_get_bbox_top(sprite_index));	
+	draw_line(
+	x, y - sprite_get_bbox_top(sprite_index), 
+	x, min_y - sprite_get_bbox_top(sprite_index));	
 }
 
 draw_self();
