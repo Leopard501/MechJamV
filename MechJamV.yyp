@@ -42,6 +42,7 @@
   "name":"MechJamV",
   "resources":[
     {"id":{"name":"obj_activate_button","path":"objects/obj_activate_button/obj_activate_button.yy",},},
+    {"id":{"name":"obj_catwalk","path":"objects/obj_catwalk/obj_catwalk.yy",},},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
     {"id":{"name":"obj_fluid_switch","path":"objects/obj_fluid_switch/obj_fluid_switch.yy",},},
     {"id":{"name":"obj_grab_lever","path":"objects/obj_grab_lever/obj_grab_lever.yy",},},
@@ -62,6 +63,7 @@
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"id":{"name":"lib_vectors","path":"scripts/lib_vectors/lib_vectors.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
+    {"id":{"name":"spr_catwalk","path":"sprites/spr_catwalk/spr_catwalk.yy",},},
     {"id":{"name":"spr_control","path":"sprites/spr_control/spr_control.yy",},},
     {"id":{"name":"spr_gantry","path":"sprites/spr_gantry/spr_gantry.yy",},},
     {"id":{"name":"spr_hook","path":"sprites/spr_hook/spr_hook.yy",},},
