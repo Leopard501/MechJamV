@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_problem",
+  "%Name":"obj_problem_fire",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_problem",
+  "name":"obj_problem_fire",
   "overriddenProperties":[],
   "parent":{
     "name":"problems",
     "path":"folders/Objects/problems.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_problem",
+    "path":"objects/obj_problem/obj_problem.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_problem_placeholder",
-    "path":"sprites/spr_problem_placeholder/spr_problem_placeholder.yy",
+    "name":"spr_problem_fire",
+    "path":"sprites/spr_problem_fire/spr_problem_fire.yy",
   },
   "spriteMaskId":null,
   "visible":true,

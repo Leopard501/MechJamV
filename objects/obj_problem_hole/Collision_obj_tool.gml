@@ -1,3 +1,5 @@
+/// @description fix
+
 if (other.tool_type == TOOL_TYPE.PATCH) {
 	covered = true;
 	patch = other;
