@@ -2,7 +2,7 @@
 
 if (other == grabber) exit;
 
-if (other.grabbed) {
+if (other.grab_pulse) {
 	if (grabber != -1) {
 		grabber.release();
 	}

@@ -1,4 +1,5 @@
 grabbed = false;
+grab_pulse = false;
 tool = -1;
 
 acquire = function(_tool) {

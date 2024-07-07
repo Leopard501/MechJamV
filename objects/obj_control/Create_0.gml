@@ -36,6 +36,8 @@ set_grab = function(_new_val) {
 	
 	if (!_new_val) {
 		grabbers[sel_grab].release();
+	} else if (!grabbers[sel_grab].grabbed) {
+		grabbers[sel_grab].grab_pulse = true;	
 	}
 	
 	grabbers[sel_grab].grabbed = _new_val;
