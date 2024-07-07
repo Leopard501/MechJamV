@@ -5,6 +5,8 @@ acquire = function(_tool) {
 	if (tool != -1) return;
 	
 	tool = _tool;
+	if (tool.hook != -1) tool.hook.has_tool = false;
+	tool.hook = -1;
 	tool.grabber = self;
 }
 

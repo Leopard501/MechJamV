@@ -6,4 +6,5 @@ enum TOOL_TYPE {
 }
 
 grabber = -1;
+hook = -1;
 activated = false;
