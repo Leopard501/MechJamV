@@ -6,6 +6,8 @@
   "name":"obj_tool_pump",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"tool_type","path":"objects/obj_tool/obj_tool.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"TOOL_TYPE.PUMP",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"mirror_sprite","path":"objects/obj_tool/obj_tool.yy",},"resource":{"name":"spr_tool_pump_m","path":"sprites/spr_tool_pump_m/spr_tool_pump_m.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_tool_pump_m",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"main_sprite","path":"objects/obj_tool/obj_tool.yy",},"resource":{"name":"spr_tool_pump","path":"sprites/spr_tool_pump/spr_tool_pump.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_tool_pump",},
   ],
   "parent":{
     "name":"tools",

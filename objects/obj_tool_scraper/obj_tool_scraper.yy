@@ -6,6 +6,8 @@
   "name":"obj_tool_scraper",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"tool_type","path":"objects/obj_tool/obj_tool.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"TOOL_TYPE.SCRAPER",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"mirror_sprite","path":"objects/obj_tool/obj_tool.yy",},"resource":{"name":"spr_tool_scraper_m","path":"sprites/spr_tool_scraper_m/spr_tool_scraper_m.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_tool_scraper_m",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"main_sprite","path":"objects/obj_tool/obj_tool.yy",},"resource":{"name":"spr_tool_scraper","path":"sprites/spr_tool_scraper/spr_tool_scraper.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_tool_scraper",},
   ],
   "parent":{
     "name":"tools",

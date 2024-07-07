@@ -8,6 +8,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_hook","path":"objects/obj_hook/obj_hook.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_catwalk","path":"objects/obj_catwalk/obj_catwalk.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_tool",
@@ -32,6 +33,8 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"tool_type","filters":[],"listItems":[],"multiselect":false,"name":"tool_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"TOOL_TYPE.WELDER","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"main_sprite","filters":[],"listItems":[],"multiselect":false,"name":"main_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_tool_welder","path":"sprites/spr_tool_welder/spr_tool_welder.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_tool_welder","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"mirror_sprite","filters":[],"listItems":[],"multiselect":false,"name":"mirror_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_tool_welder_m","path":"sprites/spr_tool_welder_m/spr_tool_welder_m.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_tool_welder_m","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
