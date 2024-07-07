@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_control",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_problem_low_coolent",
+  "eventList":[],
   "managed":true,
-  "name":"obj_control",
+  "name":"obj_problem_low_coolent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"problems",
+    "path":"folders/Objects/problems.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_problem",
+    "path":"objects/obj_problem/obj_problem.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_control",
-    "path":"sprites/spr_control/spr_control.yy",
+    "name":"spr_problem_placeholder",
+    "path":"sprites/spr_problem_placeholder/spr_problem_placeholder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

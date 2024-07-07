@@ -10,8 +10,8 @@
   "name":"obj_problem",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"problems",
+    "path":"folders/Objects/problems.yy",
   },
   "parentObjectId":null,
   "persistent":false,

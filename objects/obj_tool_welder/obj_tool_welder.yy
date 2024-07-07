@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_control",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_tool_welder",
+  "eventList":[],
   "managed":true,
-  "name":"obj_control",
+  "name":"obj_tool_welder",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"tools",
+    "path":"folders/Objects/tools.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_tool",
+    "path":"objects/obj_tool/obj_tool.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_control",
-    "path":"sprites/spr_control/spr_control.yy",
+    "name":"spr_tool_welder",
+    "path":"sprites/spr_tool_welder/spr_tool_welder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

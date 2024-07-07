@@ -16,8 +16,9 @@
     {"name":"inst_50258FD9","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_7C9895CF","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_39B60463","path":"rooms/rm_main/rm_main.yy",},
-    {"name":"inst_1B16703F","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_6930B526","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_37910C52","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_50CF56","path":"rooms/rm_main/rm_main.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -35,7 +36,8 @@
         {"$GMRInstance":"v1","%Name":"inst_6930B526","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6930B526","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":122.399994,"y":202.3788,},
       ],"layers":[],"name":"control","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"tools","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_1B16703F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1B16703F","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":282.0,"y":67.0,},
+        {"$GMRInstance":"v1","%Name":"inst_37910C52","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37910C52","objectId":{"name":"obj_tool_welder","path":"objects/obj_tool_welder/obj_tool_welder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":309.0,"y":35.0,},
+        {"$GMRInstance":"v1","%Name":"inst_50CF56","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50CF56","objectId":{"name":"obj_tool_patch","path":"objects/obj_tool_patch/obj_tool_patch.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":335.0,"y":36.0,},
       ],"layers":[],"name":"tools","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"grabbers","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_g1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_g1","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"properties":[
