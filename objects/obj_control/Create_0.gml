@@ -7,9 +7,10 @@ enum DIR {
 }
 
 enum FLUID {
-	FUEL,
+	NONE,
 	COOLANT,
 	OIL,
+	FUEL,
 }
 
 global.control = self;
@@ -23,10 +24,7 @@ grabbers = [
 sel_grab = -1;
 grab_speed = 1;
 grab_dir = DIR.NONE
-do_scrape = false
-do_pump = false
-do_weld = false
-active_fluid = FLUID.FUEL
+sel_fluid = FLUID.NONE
 
 is_grab = function() {
 	if (sel_grab == -1) return false;
