@@ -10,8 +10,8 @@
   "name":"obj_grabber",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"grabbers",
+    "path":"folders/Objects/grabbers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
