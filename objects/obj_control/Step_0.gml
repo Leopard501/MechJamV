@@ -1,17 +1,21 @@
 if (sel_grab == -1) exit;
 
+var _moving = false;
+
 switch (grab_dir) {
 	case DIR.RIGHT:
 		with (grabbers[sel_grab]) {
 			if (x < max_x) {
 				x += x_speed * global.control.grab_speed;
+				_moving = true;
 			}
 		}
 		break;
 	case DIR.LEFT:
 		with (grabbers[sel_grab]) {
 			if (x > min_x) {
-				x -= x_speed * global.control.grab_speed;	
+				x -= x_speed * global.control.grab_speed;
+				_moving = true;
 			}
 		}
 		break;
@@ -19,6 +23,7 @@ switch (grab_dir) {
 		with (grabbers[sel_grab]) {
 			if (y > min_y) {
 				y -= y_speed * global.control.grab_speed;
+				_moving = true;
 			}
 		}
 		break;
@@ -26,7 +31,16 @@ switch (grab_dir) {
 		with (grabbers[sel_grab]) {
 			if (y < max_y) {
 				y += y_speed * global.control.grab_speed;	
+				_moving = true;
 			}
 		}
 		break;
+}
+
+var _tool = get_tool();
+
+if (_tool != -1 && 
+	_tool.tool_type == TOOL_TYPE.SCRAPER) {
+	
+	_tool.moving = _moving;
 }

@@ -51,3 +51,8 @@ set_activated = function(_val) {
 		activated = _val;	
 	}
 }
+
+get_tool = function() {
+	if (sel_grab == -1) return -1;
+	return grabbers[sel_grab].tool;
+}

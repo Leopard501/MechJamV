@@ -28,11 +28,16 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"moving","filters":[],"listItems":[],"multiselect":false,"name":"moving","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_tool_scraper",
+    "path":"sprites/spr_tool_scraper/spr_tool_scraper.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
