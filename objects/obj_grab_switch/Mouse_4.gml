@@ -1,1 +1,0 @@
-global.control.sel_grab = grab_idx;

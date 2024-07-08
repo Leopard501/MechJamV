@@ -16,10 +16,10 @@ enum FLUID {
 global.control = self;
 
 grabbers = [
-	inst_grabber_ceiling,
 	inst_grabber_left,
-	inst_grabber_right,
+	inst_grabber_ceiling,
 	inst_grabber_floor,
+	inst_grabber_right,
 ]
 
 sel_grab = -1;

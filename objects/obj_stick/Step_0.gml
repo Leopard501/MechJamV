@@ -1,5 +1,5 @@
-var _dist = sqrt(sqr(x - mouse_x) + sqr(y - mouse_y));
-var _angle = point_direction(x, y, mouse_x, mouse_y);
+var _dist = sqrt(sqr(191 - mouse_x) + sqr(191 - mouse_y));
+var _angle = point_direction(191, 191, mouse_x, mouse_y);
 
 if (held && _dist > 5) {
 	global.control.grab_speed = 0.5;
