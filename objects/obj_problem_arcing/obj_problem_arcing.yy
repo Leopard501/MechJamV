@@ -1,22 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_problem_low_coolent",
+  "%Name":"obj_problem_arcing",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_problem_low_coolent",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_problem","path":"objects/obj_problem/obj_problem.yy",},"propertyId":{"name":"temperature","path":"objects/obj_problem/obj_problem.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
-  ],
+  "name":"obj_problem_arcing",
+  "overriddenProperties":[],
   "parent":{
     "name":"problems",
     "path":"folders/Objects/problems.yy",
   },
   "parentObjectId":{
-    "name":"obj_problem",
-    "path":"objects/obj_problem/obj_problem.yy",
+    "name":"obj_problem_hole",
+    "path":"objects/obj_problem_hole/obj_problem_hole.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -36,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_problem_placeholder",
-    "path":"sprites/spr_problem_placeholder/spr_problem_placeholder.yy",
+    "name":"spr_problem_hole",
+    "path":"sprites/spr_problem_hole/spr_problem_hole.yy",
   },
   "spriteMaskId":null,
   "visible":true,

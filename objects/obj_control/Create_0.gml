@@ -24,8 +24,8 @@ grabbers = [
 
 sel_grab = -1;
 grab_speed = 1;
-grab_dir = DIR.NONE
-sel_fluid = FLUID.NONE
+grab_dir = DIR.NONE;
+sel_fluid = FLUID.COOLANT;
 
 is_grab = function() {
 	if (sel_grab == -1) return false;
