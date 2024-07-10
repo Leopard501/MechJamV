@@ -13,7 +13,7 @@ part_type_orientation(global.pt_steam, 0, 0, 0, 0, false);
 part_type_colour3(global.pt_steam, $FFFFFF, $FFFFFF, $FFFFFF);
 part_type_alpha3(global.pt_steam, 1, 1, 1);
 part_type_blend(global.pt_steam, false);
-part_type_life(global.pt_steam, 80, 40);
+part_type_life(global.pt_steam, 40, 20);
 
 // pt_fire
 var global.pt_fire = part_type_create();
@@ -56,3 +56,17 @@ part_type_colour3(global.pt_sparks, $FFFBF4, $00FFFF, $FF1900);
 part_type_alpha3(global.pt_sparks, 1, 1, 0);
 part_type_blend(global.pt_sparks, false);
 part_type_life(global.pt_sparks, 5, 15);
+
+// pt_rust
+var global.pt_rust = part_type_create();
+part_type_shape(global.pt_rust, pt_shape_pixel);
+part_type_size(global.pt_rust, 0.4, 0.5, 0.02, 0.1);
+part_type_scale(global.pt_rust, 1, 1);
+part_type_speed(global.pt_rust, 1.5, 1.5, 0.005, 0);
+part_type_direction(global.pt_rust, 0, 360, 0, 0);
+part_type_gravity(global.pt_rust, 0.1, 270);
+part_type_orientation(global.pt_rust, 0, 0, 0, 1, false);
+part_type_colour3(global.pt_rust, $008CFF, $0077FF, $000091);
+part_type_alpha3(global.pt_rust, 1, 0.788, 0);
+part_type_blend(global.pt_rust, false);
+part_type_life(global.pt_rust, 10, 30);
