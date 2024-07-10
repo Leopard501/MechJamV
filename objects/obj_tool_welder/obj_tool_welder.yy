@@ -1,10 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"obj_tool_welder",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_tool_welder",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"particle_offset_y","path":"objects/obj_tool/obj_tool.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"19",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"particle_offset_ym","path":"objects/obj_tool/obj_tool.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-19",},
+  ],
   "parent":{
     "name":"tools",
     "path":"folders/Objects/tools.yy",

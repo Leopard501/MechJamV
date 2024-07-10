@@ -74,6 +74,7 @@
     {"id":{"name":"obj_tool_scraper","path":"objects/obj_tool_scraper/obj_tool_scraper.yy",},},
     {"id":{"name":"obj_tool_welder","path":"objects/obj_tool_welder/obj_tool_welder.yy",},},
     {"id":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},},
+    {"id":{"name":"ps_arcs","path":"particles/ps_arcs/ps_arcs.yy",},},
     {"id":{"name":"ps_fire","path":"particles/ps_fire/ps_fire.yy",},},
     {"id":{"name":"ps_sparks","path":"particles/ps_sparks/ps_sparks.yy",},},
     {"id":{"name":"ps_steam","path":"particles/ps_steam/ps_steam.yy",},},
