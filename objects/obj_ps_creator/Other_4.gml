@@ -70,3 +70,31 @@ part_type_colour3(global.pt_rust, $008CFF, $0077FF, $000091);
 part_type_alpha3(global.pt_rust, 1, 0.788, 0);
 part_type_blend(global.pt_rust, false);
 part_type_life(global.pt_rust, 10, 30);
+
+// pt_coolent
+global.pt_coolent = part_type_create();
+part_type_shape(global.pt_coolent, pt_shape_pixel);
+part_type_size(global.pt_coolent, 1, 1, 0, 0);
+part_type_scale(global.pt_coolent, 1, 1);
+part_type_speed(global.pt_coolent, 0, 0, 0, 0);
+part_type_direction(global.pt_coolent, 80, 100, 0, 5);
+part_type_gravity(global.pt_coolent, 0.05, 270);
+part_type_orientation(global.pt_coolent, 0, 0, 0, 0, false);
+part_type_colour3(global.pt_coolent, $FFE196, $CC9D28, $CC9D28);
+part_type_alpha3(global.pt_coolent, 1, 1, 0);
+part_type_blend(global.pt_coolent, false);
+part_type_life(global.pt_coolent, 40, 80);
+
+// pt_oil
+global.pt_oil = part_type_create();
+part_type_shape(global.pt_oil, pt_shape_pixel);
+part_type_size(global.pt_oil, 1, 1, 0, 0);
+part_type_scale(global.pt_oil, 1, 1);
+part_type_speed(global.pt_oil, 0, 0, 0, 0);
+part_type_direction(global.pt_oil, 80, 100, 0, 5);
+part_type_gravity(global.pt_oil, 0.05, 270);
+part_type_orientation(global.pt_oil, 0, 0, 0, 0, false);
+part_type_colour3(global.pt_oil, $000000, $001C2B, $001C2B);
+part_type_alpha3(global.pt_oil, 1, 1, 0);
+part_type_blend(global.pt_oil, false);
+part_type_life(global.pt_oil, 40, 80);

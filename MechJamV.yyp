@@ -39,7 +39,9 @@
   ],
   "IncludedFiles":[],
   "isEcma":false,
-  "LibraryEmitters":[],
+  "LibraryEmitters":[
+    {"name":"ps_coolent","path":"particlelib/ps_coolent/ps_coolent.yy",},
+  ],
   "MetaData":{
     "IDEVersion":"2024.6.1.160",
   },
@@ -75,7 +77,9 @@
     {"id":{"name":"obj_tool_welder","path":"objects/obj_tool_welder/obj_tool_welder.yy",},},
     {"id":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},},
     {"id":{"name":"ps_arcs","path":"particles/ps_arcs/ps_arcs.yy",},},
+    {"id":{"name":"ps_coolent","path":"particles/ps_coolent/ps_coolent.yy",},},
     {"id":{"name":"ps_fire","path":"particles/ps_fire/ps_fire.yy",},},
+    {"id":{"name":"ps_oil","path":"particles/ps_oil/ps_oil.yy",},},
     {"id":{"name":"ps_rust","path":"particles/ps_rust/ps_rust.yy",},},
     {"id":{"name":"ps_sparks","path":"particles/ps_sparks/ps_sparks.yy",},},
     {"id":{"name":"ps_steam","path":"particles/ps_steam/ps_steam.yy",},},
