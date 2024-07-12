@@ -10,12 +10,17 @@
   ],
   "managed":true,
   "name":"obj_stick",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_control_comp","path":"objects/obj_control_comp/obj_control_comp.yy",},"propertyId":{"name":"description","path":"objects/obj_control_comp/obj_control_comp.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Move Grabber",},
+  ],
   "parent":{
     "name":"control",
     "path":"folders/Objects/control.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_control_comp",
+    "path":"objects/obj_control_comp/obj_control_comp.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

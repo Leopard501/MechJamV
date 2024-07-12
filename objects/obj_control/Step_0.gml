@@ -1,3 +1,9 @@
+if (sel_fluid != FLUID.COOLANT) {
+	c_pressure = clamp(c_pressure - 1, 0, 100);	
+} if (sel_fluid != FLUID.OIL) {
+	o_pressure = clamp(o_pressure - 1, 0, 100);	
+}
+
 if (sel_grab == -1) exit;
 
 var _moving = false;

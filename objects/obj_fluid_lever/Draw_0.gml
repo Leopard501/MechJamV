@@ -5,3 +5,7 @@ if (global.control.sel_fluid == FLUID.COOLANT) {
 }
 
 draw_self();
+
+if (held || hovered) {
+	global.control.draw_holo(description);
+}

@@ -5,3 +5,7 @@ if (global.control.is_grab()) {
 }
 
 draw_self();
+
+if (held || hovered) {
+	global.control.draw_holo(description);
+}

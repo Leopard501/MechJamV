@@ -2,7 +2,7 @@
 
 if (other.tool_type == TOOL_TYPE.PUMP &&
 	other.activated &&
-	global.control.sel_fluid == FLUID.COOLANT) {
+	global.control.c_pressure < 80) {
 		
 	progress++;
 }

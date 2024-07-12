@@ -1,6 +1,6 @@
 /// @description Fix
 
-if (global.control.sel_fluid != FLUID.COOLANT) exit;
+if (global.control.c_pressure < 80) exit;
 
 var _others = ds_list_create();
 var _num = collision_rectangle_list(

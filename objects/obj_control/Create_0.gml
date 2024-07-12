@@ -26,6 +26,8 @@ sel_grab = -1;
 grab_speed = 1;
 grab_dir = DIR.NONE;
 sel_fluid = FLUID.COOLANT;
+c_pressure = 0;
+o_pressure = 0;
 
 is_grab = function() {
 	if (sel_grab == -1) return false;
@@ -56,4 +58,24 @@ set_activated = function(_val) {
 get_tool = function() {
 	if (sel_grab == -1) return -1;
 	return grabbers[sel_grab].tool;
+}
+
+draw_holo = function(_text) {
+	draw_set_color(c_blue);
+	draw_set_alpha(0.7);
+	
+	draw_rectangle(x - 60, y - 2, x + 60, y + 10, false);
+	
+	draw_set_alpha(0.3);
+	
+	draw_triangle(x - 60, y + 10, x + 60, y + 10, x, y + 20, false);
+	
+	draw_set_alpha(1);
+	draw_set_color(c_aqua);
+	draw_set_font(fnt_holo);
+	draw_set_halign(fa_center);
+	
+	draw_text(x, y, _text);
+	
+	draw_set_color(c_white);
 }

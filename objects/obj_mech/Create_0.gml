@@ -12,7 +12,7 @@ add_problem = function(_type, _disp_x, _disp_y) {
 }
 
 update_temperature = function() {
-	temperature = 0;
+	temperature = 40;
 	for (var _i = 0; _i < ds_list_size(problems); _i++) {
 		var _problem = ds_list_find_value(problems, _i);
 		if (instance_exists(_problem)) {

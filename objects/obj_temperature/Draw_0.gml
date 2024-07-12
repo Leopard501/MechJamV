@@ -3,3 +3,7 @@ image_index = clamp(
 	0, 6);
 
 draw_self();
+
+if (hovered) {
+	global.control.draw_holo(description);
+}
