@@ -28,6 +28,7 @@ grab_dir = DIR.NONE;
 sel_fluid = FLUID.COOLANT;
 c_pressure = 0;
 o_pressure = 0;
+monitor_power = true;
 
 is_grab = function() {
 	if (sel_grab == -1) return false;
@@ -61,17 +62,19 @@ get_tool = function() {
 }
 
 draw_holo = function(_text) {
-	draw_set_color(c_blue);
-	draw_set_alpha(0.7);
+	if (!monitor_power) exit;
+	
+	draw_set_color(0x004709);
+	draw_set_alpha(0.9);
 	
 	draw_rectangle(x - 60, y - 2, x + 60, y + 10, false);
 	
-	draw_set_alpha(0.3);
+	draw_set_alpha(0.5);
 	
 	draw_triangle(x - 60, y + 10, x + 60, y + 10, x, y + 20, false);
 	
 	draw_set_alpha(1);
-	draw_set_color(c_aqua);
+	draw_set_color(c_lime);
 	draw_set_font(fnt_holo);
 	draw_set_halign(fa_center);
 	
