@@ -30,6 +30,7 @@ c_pressure = 0;
 o_pressure = 0;
 monitor_power = true;
 monitor_line = 0;
+monitor_char = 0;
 
 is_grab = function() {
 	if (sel_grab == -1) return false;
