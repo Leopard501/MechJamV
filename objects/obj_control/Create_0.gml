@@ -83,6 +83,9 @@ draw_holo = function(_text) {
 	draw_text(x, y, _text);
 	
 	draw_set_color(c_white);
+	
+	// don't work, don't care?
+	draw_sprite(spr_holo, 1, x, y);
 }
 
 draw_holo_long = function(_text) {
