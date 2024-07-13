@@ -5,7 +5,7 @@ if (global.control.monitor_power) {
 
 	var _text = ds_list_find_value(global.mech.dialog, global.control.monitor_line);
 	draw_text_ext_transformed(
-		24, 168, 
+		29, 171, 
 		string_copy(_text, 1, global.control.monitor_char),
 		3, 47, 
 		1, 1, 12
