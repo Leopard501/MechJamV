@@ -25,7 +25,6 @@
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"control","folderPath":"folders/Sprites/control.yy","name":"control","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -48,6 +47,7 @@
   "name":"MechJamV",
   "resources":[
     {"id":{"name":"fnt_holo","path":"fonts/fnt_holo/fnt_holo.yy",},},
+    {"id":{"name":"fnt_mon","path":"fonts/fnt_mon/fnt_mon.yy",},},
     {"id":{"name":"obj_activate_button","path":"objects/obj_activate_button/obj_activate_button.yy",},},
     {"id":{"name":"obj_c_pressure","path":"objects/obj_c_pressure/obj_c_pressure.yy",},},
     {"id":{"name":"obj_catwalk","path":"objects/obj_catwalk/obj_catwalk.yy",},},
@@ -66,6 +66,7 @@
     {"id":{"name":"obj_mech_4","path":"objects/obj_mech_4/obj_mech_4.yy",},},
     {"id":{"name":"obj_mech_5","path":"objects/obj_mech_5/obj_mech_5.yy",},},
     {"id":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},},
+    {"id":{"name":"obj_monitor_text","path":"objects/obj_monitor_text/obj_monitor_text.yy",},},
     {"id":{"name":"obj_monitor","path":"objects/obj_monitor/obj_monitor.yy",},},
     {"id":{"name":"obj_o_pressure","path":"objects/obj_o_pressure/obj_o_pressure.yy",},},
     {"id":{"name":"obj_problem_arcing","path":"objects/obj_problem_arcing/obj_problem_arcing.yy",},},

@@ -29,6 +29,7 @@ sel_fluid = FLUID.COOLANT;
 c_pressure = 0;
 o_pressure = 0;
 monitor_power = true;
+monitor_line = 0;
 
 is_grab = function() {
 	if (sel_grab == -1) return false;
@@ -79,6 +80,28 @@ draw_holo = function(_text) {
 	draw_set_halign(fa_center);
 	
 	draw_text(x, y, _text);
+	
+	draw_set_color(c_white);
+}
+
+draw_holo_long = function(_text) {
+	if (!monitor_power) exit;
+	
+	draw_set_color(0x004709);
+	draw_set_alpha(0.9);
+	
+	draw_rectangle(x - 100, y - 50, x + 100, y + 10, false);
+	
+	draw_set_alpha(0.5);
+	
+	draw_triangle(x - 100, y + 10, x + 100, y + 10, x, y + 20, false);
+	
+	draw_set_alpha(1);
+	draw_set_color(c_lime);
+	draw_set_font(fnt_holo);
+	draw_set_halign(fa_left);
+	
+	draw_text_ext(x - 95, y - 45, _text, 8, 190);
 	
 	draw_set_color(c_white);
 }

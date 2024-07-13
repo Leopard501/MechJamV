@@ -23,21 +23,36 @@ if (global.control.monitor_power) {
 draw_self();
 draw_sprite(spr_monitor_buttons, button_index, x, y);
 
+//if (global.control.monitor_power) {	
+//	draw_set_color(c_lime);
+//	draw_set_font(fnt_mon);
+//	draw_set_halign(fa_left);
+
+//	draw_text_ext_transformed(
+//		24, 168, 
+//		ds_list_find_value(global.mech.dialog, global.control.monitor_line), 
+//		3, 47, 
+//		1, 1, 12
+//	);
+
+//	draw_set_color(c_white);
+//}
+
 if (hovered) {
-	var _text = "";
 	switch (monitor_sel) {
 		case MONITOR_SEL.SCREEN:
-			_text = "Monitor Text!";
+			global.control.draw_holo_long(
+				ds_list_find_value(global.mech.dialog, global.control.monitor_line)
+			);
 			break;
 		case MONITOR_SEL.POWER:
-			_text = "Monitor Power";
+			global.control.draw_holo("Monitor Power");
 			break;
 		case MONITOR_SEL.LEFT:
-			_text = "Previous Log";
+			global.control.draw_holo("Previous Log");
 			break;
 		case MONITOR_SEL.RIGHT:
-			_text = "Next Log";
+			global.control.draw_holo("Next Log");
 			break;
-	}
-	global.control.draw_holo(_text);
+	}	
 }
