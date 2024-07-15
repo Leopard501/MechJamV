@@ -1,8 +1,7 @@
 /// @description Initialize
 
 add_problem(obj_problem_arcing, -40, -5);
-add_problem(obj_problem_arcing, 60, -5);
+//add_problem(obj_problem_arcing, 60, -5);
 
-ds_list_add(dialog, "Sequi debitis voluptatem quia. Adipisci officia deserunt quis nesciunt. Quos ipsam nisi et nemo molestiae. Ex accusamus nam consectetur. Est dolores vitae et dolorum ipsa beatae.");
-ds_list_add(dialog, "Quia praesentium sequi omnis velit sunt accusantium vel et. Dolor asperiores qui consequatur non maxime. Quasi harum molestiae maiores nesciunt.");
-ds_list_add(dialog, "Laudantium necessitatibus rerum et vitae soluta. Dolores unde cupiditate explicabo. Nam autem temporibus recusandae esse modi eum. Voluptatibus maiores et est nemo sed. Et et accusamus ad consequatur est maxime quae inventore. Molestiae et architecto perspiciatis nostrum ratione ut.");
+ds_list_add(dialog, "Got some nasty parasites draining my coolant and corroding my plating. Think you can take care of that?");
+ds_list_add(dialog, "Little monsters pissin' all over the place. Hard to tell if they were made by the enemy or by nature. Kind of the same thing with these beasts, huh? We got a rogue raisin' hell out there, and it's worse than any piloted mech, no matter the side. Just don't move right, y'know? Well, wish me luck.");

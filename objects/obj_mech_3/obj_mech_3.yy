@@ -6,7 +6,9 @@
   ],
   "managed":true,
   "name":"obj_mech_3",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},"propertyId":{"name":"fix_dialog_start","path":"objects/obj_mech/obj_mech.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+  ],
   "parent":{
     "name":"mechs",
     "path":"folders/Objects/mechs.yy",
