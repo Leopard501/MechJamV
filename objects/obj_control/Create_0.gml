@@ -29,7 +29,7 @@ sel_fluid = FLUID.COOLANT;
 c_pressure = 0;
 o_pressure = 0;
 monitor_power = true;
-monitor_line = 0;
+monitor_line = -1;
 monitor_char = 0;
 
 is_grab = function() {
@@ -108,4 +108,8 @@ draw_holo_long = function(_text) {
 	draw_text_ext(x - 95, y - 45, _text, 8, 190);
 	
 	draw_set_color(c_white);
+}
+
+line_len = function() {
+	return string_length(ds_list_find_value(global.mech.dialog, monitor_line)) - 1;
 }

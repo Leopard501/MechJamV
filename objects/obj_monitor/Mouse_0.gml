@@ -6,13 +6,13 @@ if (!held) {
 		case MONITOR_SEL.LEFT:
 			if (global.control.monitor_line > 0) {
 				global.control.monitor_line -= 1;
-				global.control.monitor_char = 0;
+				global.control.monitor_char = global.control.line_len();
 			}
 			break;
 		case MONITOR_SEL.RIGHT:
-			if (global.control.monitor_line < ds_list_size(global.mech.dialog) - 1) {
+			if (global.control.monitor_line < global.mech.get_last_line_num()) {
 				global.control.monitor_line += 1;
-				global.control.monitor_char = 0;
+				global.control.monitor_char = global.control.line_len();
 			}
 			break;
 	}	

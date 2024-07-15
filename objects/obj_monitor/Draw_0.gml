@@ -26,6 +26,7 @@ draw_sprite(spr_monitor_buttons, button_index, x, y);
 if (hovered) {
 	switch (monitor_sel) {
 		case MONITOR_SEL.SCREEN:
+			if (global.control.monitor_line < 0) break;
 			var _text = ds_list_find_value(global.mech.dialog, global.control.monitor_line);
 			global.control.draw_holo_long(
 				string_copy(_text, 1, global.control.monitor_char)
