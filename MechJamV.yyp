@@ -96,6 +96,7 @@
     {"id":{"name":"lib_vectors","path":"scripts/lib_vectors/lib_vectors.yy",},},
     {"id":{"name":"GM_Electricity_spr_Electricity1","path":"sprites/GM_Electricity_spr_Electricity1/GM_Electricity_spr_Electricity1.yy",},},
     {"id":{"name":"GM_Fire_spr_Fire","path":"sprites/GM_Fire_spr_Fire/GM_Fire_spr_Fire.yy",},},
+    {"id":{"name":"spr_back","path":"sprites/spr_back/spr_back.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_c_pressure","path":"sprites/spr_c_pressure/spr_c_pressure.yy",},},
     {"id":{"name":"spr_catwalk","path":"sprites/spr_catwalk/spr_catwalk.yy",},},
