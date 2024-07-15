@@ -1,12 +1,23 @@
+enum MECH_STATE {
+	APPROACHING,
+	ASCENDING,
+	REPAIR,
+	DESCENDING,
+	EXITING,
+}
+
 global.mech = self;
 
 problems = ds_list_create();
+problem_count = 0;
 temperature = 0;
 dialog = ds_list_create();
+state = MECH_STATE.APPROACHING;
 
 add_problem = function(_type, _disp_x, _disp_y) {
 	var _problem = instance_create_layer(x + _disp_x, y + _disp_y, "problems", _type);
 	ds_list_add(problems, _problem);
+	problem_count++;
 	_problem.mech = self;
 	_problem.disp_x = _disp_x;
 	_problem.disp_y = _disp_y;

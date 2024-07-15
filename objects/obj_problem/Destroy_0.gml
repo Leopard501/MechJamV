@@ -1,0 +1,1 @@
+mech.problem_count--;
