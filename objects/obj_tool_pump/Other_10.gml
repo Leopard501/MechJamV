@@ -1,5 +1,10 @@
 var _part = 0;
 if (global.control.c_pressure > 80) {
+	if (collision_rectangle(
+			bbox_left, bbox_top, bbox_right, bbox_bottom, 
+			obj_problem_low_coolent, false, false) != noone) {
+		exit;
+	}
 	_part = global.pt_coolent;	
 } else if (global.control.o_pressure > 80) {
 	_part = global.pt_oil;	
