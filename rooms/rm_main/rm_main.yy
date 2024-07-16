@@ -11,11 +11,9 @@
     {"name":"inst_39B60463","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_6930B526","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_37910C52","path":"rooms/rm_main/rm_main.yy",},
-    {"name":"inst_50CF56","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_64811861","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_D36DCDF","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_39F05A59","path":"rooms/rm_main/rm_main.yy",},
-    {"name":"inst_71A6C00E","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_6D5F0824","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_4DC1350D","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_225B4B1F","path":"rooms/rm_main/rm_main.yy",},
@@ -34,6 +32,7 @@
     {"name":"inst_monitor_text","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_2DD3771A","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_1080272B","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_7585047B","path":"rooms/rm_main/rm_main.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -59,15 +58,14 @@
     {"$GMRInstanceLayer":"","%Name":"hooks","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_D36DCDF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_D36DCDF","objectId":{"name":"obj_hook","path":"objects/obj_hook/obj_hook.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":93.0,"y":25.0,},
         {"$GMRInstance":"v1","%Name":"inst_39F05A59","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39F05A59","objectId":{"name":"obj_hook","path":"objects/obj_hook/obj_hook.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":45.0,"y":103.0,},
-        {"$GMRInstance":"v1","%Name":"inst_71A6C00E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_71A6C00E","objectId":{"name":"obj_hook","path":"objects/obj_hook/obj_hook.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":346.0,"y":71.0,},
         {"$GMRInstance":"v1","%Name":"inst_6D5F0824","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D5F0824","objectId":{"name":"obj_hook","path":"objects/obj_hook/obj_hook.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":278.0,"y":25.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7585047B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7585047B","objectId":{"name":"obj_patch_dispenser","path":"objects/obj_patch_dispenser/obj_patch_dispenser.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":350.0,"y":82.0,},
       ],"layers":[],"name":"hooks","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"ps_tools","depth":300,"effectEnabled":true,"effectType":"_filter_pixelate","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"ps_tools","properties":[
         {"name":"g_CellSize","type":0,"value":"3",},
       ],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"tools","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_37910C52","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37910C52","objectId":{"name":"obj_tool_welder","path":"objects/obj_tool_welder/obj_tool_welder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":93.0,"y":19.0,},
-        {"$GMRInstance":"v1","%Name":"inst_50CF56","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50CF56","objectId":{"name":"obj_tool_patch","path":"objects/obj_tool_patch/obj_tool_patch.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":345.0,"y":67.0,},
         {"$GMRInstance":"v1","%Name":"inst_64811861","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_64811861","objectId":{"name":"obj_tool_scraper","path":"objects/obj_tool_scraper/obj_tool_scraper.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":276.0,"y":12.0,},
         {"$GMRInstance":"v1","%Name":"inst_4DC1350D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4DC1350D","objectId":{"name":"obj_tool_pump","path":"objects/obj_tool_pump/obj_tool_pump.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":45.0,"y":93.0,},
       ],"layers":[],"name":"tools","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

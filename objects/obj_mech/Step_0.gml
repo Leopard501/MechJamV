@@ -35,7 +35,7 @@ switch (state) {
 		break;
 	case MECH_STATE.EXITING:
 		x -= move_speed;
-		if (x < -sprite_width) {
+		if (x < -sprite_width && dialog_finished) {
 			global.control.swap_mech();	
 		}
 		break;
