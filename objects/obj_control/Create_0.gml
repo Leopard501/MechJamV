@@ -31,6 +31,7 @@ o_pressure = 0;
 monitor_power = true;
 monitor_line = -1;
 monitor_char = 0;
+monitor_char_time = 0;
 
 is_grab = function() {
 	if (sel_grab == -1) return false;
@@ -80,7 +81,7 @@ draw_holo = function(_text) {
 	draw_set_font(fnt_holo);
 	draw_set_halign(fa_center);
 	
-	draw_text(x, y, _text);
+	draw_text(x, y - 1, _text);
 	
 	draw_set_color(c_white);
 	
@@ -94,7 +95,7 @@ draw_holo_long = function(_text) {
 	draw_set_color(0x004709);
 	draw_set_alpha(0.9);
 	
-	draw_rectangle(x - 100, y - 50, x + 100, y + 10, false);
+	draw_rectangle(x - 100, y - 35, x + 100, y + 10, false);
 	
 	draw_set_alpha(0.5);
 	
@@ -105,11 +106,20 @@ draw_holo_long = function(_text) {
 	draw_set_font(fnt_holo);
 	draw_set_halign(fa_left);
 	
-	draw_text_ext(x - 95, y - 45, _text, 8, 190);
+	draw_text_ext(x - 95, y - 30, _text, 12, 190);
 	
 	draw_set_color(c_white);
 }
 
 line_len = function() {
 	return string_length(ds_list_find_value(global.mech.dialog, monitor_line)) - 1;
+}
+
+inc_char = function() {
+	if (monitor_char_time < 2) {
+		monitor_char_time++;	
+	} else {
+		monitor_char_time = 0;
+		monitor_char = clamp(monitor_char + 1, 1, line_len()+1);
+	}
 }

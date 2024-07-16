@@ -7,7 +7,7 @@
   "managed":true,
   "name":"obj_mech_3",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},"propertyId":{"name":"fix_dialog_start","path":"objects/obj_mech/obj_mech.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},"propertyId":{"name":"fix_dialog_start","path":"objects/obj_mech/obj_mech.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
     "name":"mechs",

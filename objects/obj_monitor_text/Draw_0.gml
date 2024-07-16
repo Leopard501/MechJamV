@@ -11,8 +11,7 @@ draw_text_ext_transformed(
 	3, 47, 
 	1, 1, 12
 );
-global.control.monitor_char = clamp(
-	global.control.monitor_char + 1, 1, string_length(_text)
-);
+
+global.control.inc_char();
 
 draw_set_color(c_white);
