@@ -3,8 +3,10 @@
 y = 156;
 
 add_problem(obj_problem_fire, -50, 0);
-add_problem(obj_problem_fire, 40, -20);
-add_problem(obj_problem_hole, -20, 10);
+add_problem(obj_problem_fire, -35, 5);
+add_problem(obj_problem_fire, -20, 10);
+add_problem(obj_problem_fire, 15, 0);
+add_problem(obj_problem_oil_leak, -20, 10);
 
 ds_list_add(dialog, "THE FUEL TANK BLEW! QUICK, PUT ME OUT!");
 ds_list_add(dialog, "Thank you... Now just patch up the plating and we'll get back out there.");
