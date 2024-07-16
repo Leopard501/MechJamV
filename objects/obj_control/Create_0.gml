@@ -75,7 +75,7 @@ draw_holo = function(_text) {
 	
 	draw_set_alpha(0.5);
 	
-	draw_triangle(x - 60, y + 10, x + 60, y + 10, x, y + 20, false);
+	draw_triangle(x - 60, y + 10, x + 60, y + 10, x, 134, false);
 	
 	draw_set_alpha(1);
 	draw_set_color(c_lime);
@@ -100,7 +100,7 @@ draw_holo_long = function(_text) {
 	
 	draw_set_alpha(0.5);
 	
-	draw_triangle(x - 100, y + 10, x + 100, y + 10, x, y + 20, false);
+	draw_triangle(x - 100, y + 10, x + 100, y + 10, x, 134, false);
 	
 	draw_set_alpha(1);
 	draw_set_color(c_lime);
