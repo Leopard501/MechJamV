@@ -32,6 +32,7 @@ monitor_power = true;
 monitor_line = -1;
 monitor_char = 0;
 monitor_char_time = 0;
+current_mech = 0;
 
 is_grab = function() {
 	if (sel_grab == -1) return false;
@@ -121,5 +122,33 @@ inc_char = function() {
 	} else {
 		monitor_char_time = 0;
 		monitor_char = clamp(monitor_char + 1, 1, line_len()+1);
+	}
+}
+
+swap_mech = function() {
+	instance_destroy(global.mech);
+	var _mech = -1;
+	switch (current_mech) {
+		// values are temp
+		case 0:
+			_mech = obj_mech_3;
+			break;
+		case 1:
+			_mech = obj_mech_4;
+			break;
+		case 2:
+			_mech = obj_mech_5;
+			break;
+	}
+	if (_mech == -1) {
+		// todo: end game
+		exit;	
+	}
+	// y is set in create
+	instance_create_layer(525, 0, "mech", _mech);
+	with (global.control) {
+		current_mech++;
+		monitor_line = -1;
+		monitor_char = 0;
 	}
 }
