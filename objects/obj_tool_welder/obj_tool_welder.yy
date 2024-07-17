@@ -7,8 +7,8 @@
   "managed":true,
   "name":"obj_tool_welder",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"particle_offset_y","path":"objects/obj_tool/obj_tool.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"19",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"particle_offset_ym","path":"objects/obj_tool/obj_tool.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-19",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"particle_offset_y","path":"objects/obj_tool/obj_tool.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"particle_offset_ym","path":"objects/obj_tool/obj_tool.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-15",},
   ],
   "parent":{
     "name":"tools",
