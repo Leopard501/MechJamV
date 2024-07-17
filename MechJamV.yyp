@@ -125,6 +125,7 @@
     {"id":{"name":"spr_monitor","path":"sprites/spr_monitor/spr_monitor.yy",},},
     {"id":{"name":"spr_o_pressure","path":"sprites/spr_o_pressure/spr_o_pressure.yy",},},
     {"id":{"name":"spr_patch_dispenser","path":"sprites/spr_patch_dispenser/spr_patch_dispenser.yy",},},
+    {"id":{"name":"spr_platform","path":"sprites/spr_platform/spr_platform.yy",},},
     {"id":{"name":"spr_problem_corrosion","path":"sprites/spr_problem_corrosion/spr_problem_corrosion.yy",},},
     {"id":{"name":"spr_problem_fire","path":"sprites/spr_problem_fire/spr_problem_fire.yy",},},
     {"id":{"name":"spr_problem_hole","path":"sprites/spr_problem_hole/spr_problem_hole.yy",},},
