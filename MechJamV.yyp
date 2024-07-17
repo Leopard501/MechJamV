@@ -134,6 +134,7 @@
     {"id":{"name":"spr_stick","path":"sprites/spr_stick/spr_stick.yy",},},
     {"id":{"name":"spr_switch","path":"sprites/spr_switch/spr_switch.yy",},},
     {"id":{"name":"spr_temperature","path":"sprites/spr_temperature/spr_temperature.yy",},},
+    {"id":{"name":"spr_tool_patch_m","path":"sprites/spr_tool_patch_m/spr_tool_patch_m.yy",},},
     {"id":{"name":"spr_tool_patch","path":"sprites/spr_tool_patch/spr_tool_patch.yy",},},
     {"id":{"name":"spr_tool_pump_m","path":"sprites/spr_tool_pump_m/spr_tool_pump_m.yy",},},
     {"id":{"name":"spr_tool_pump","path":"sprites/spr_tool_pump/spr_tool_pump.yy",},},
