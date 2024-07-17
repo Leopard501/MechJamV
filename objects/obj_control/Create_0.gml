@@ -137,9 +137,12 @@ swap_mech = function() {
 			_mech = obj_mech_3;
 			break;
 		case 2:
-			_mech = obj_mech_4;
+			_mech = obj_mech_1b;
 			break;
 		case 3:
+			_mech = obj_mech_4;
+			break;
+		case 4:
 			_mech = obj_mech_5;
 			break;
 	}
