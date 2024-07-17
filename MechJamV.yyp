@@ -103,6 +103,7 @@
     {"id":{"name":"spr_c_pressure","path":"sprites/spr_c_pressure/spr_c_pressure.yy",},},
     {"id":{"name":"spr_catwalk","path":"sprites/spr_catwalk/spr_catwalk.yy",},},
     {"id":{"name":"spr_control","path":"sprites/spr_control/spr_control.yy",},},
+    {"id":{"name":"spr_crane_ceiling","path":"sprites/spr_crane_ceiling/spr_crane_ceiling.yy",},},
     {"id":{"name":"spr_crane","path":"sprites/spr_crane/spr_crane.yy",},},
     {"id":{"name":"spr_fluid_lever","path":"sprites/spr_fluid_lever/spr_fluid_lever.yy",},},
     {"id":{"name":"spr_gantry","path":"sprites/spr_gantry/spr_gantry.yy",},},
