@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gantry",
-    "path":"sprites/spr_gantry/spr_gantry.yy",
+    "name":"spr_grabber",
+    "path":"sprites/spr_grabber/spr_grabber.yy",
   },
   "spriteMaskId":null,
   "visible":true,

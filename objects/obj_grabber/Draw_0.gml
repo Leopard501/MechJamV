@@ -11,8 +11,8 @@ if (global.control.sel_grab != -1 && global.control.sel_grab == idx) {
 if (!mirrored) {
 	draw_line_width_color(
 		x, y - sprite_get_bbox_top(sprite_index), 
-		x, min_y - sprite_get_bbox_top(sprite_index),
-		2, #3f3736, #3f3736
+		x, min_y - sprite_height / 2,
+		2, #706665, #706665
 	);	
 }
 

@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"obj_grabber_left",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_grabber_left",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"min_x","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"max_x","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"140",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"min_y","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"min_y","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"max_y","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"115",},
   ],
   "parent":{
