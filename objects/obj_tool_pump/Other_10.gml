@@ -1,5 +1,6 @@
 var _part = 0;
 if (global.control.c_pressure > 80) {
+	// disable particles if cooling
 	if (collision_rectangle(
 			bbox_left, bbox_top, bbox_right, bbox_bottom, 
 			obj_problem_low_coolent, false, false) != noone) {
@@ -7,6 +8,12 @@ if (global.control.c_pressure > 80) {
 	}
 	_part = global.pt_coolent;	
 } else if (global.control.o_pressure > 80) {
+	// disable particles if oiling
+	if (collision_rectangle(
+			bbox_left, bbox_top, bbox_right, bbox_bottom, 
+			obj_problem_low_oil, false, false) != noone) {
+		exit;
+	}
 	_part = global.pt_oil;	
 } else {
 	exit;	

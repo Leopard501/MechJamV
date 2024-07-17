@@ -131,12 +131,15 @@ swap_mech = function() {
 	switch (current_mech) {
 		// values are temp
 		case 0:
-			_mech = obj_mech_3;
+			_mech = obj_mech_2;
 			break;
 		case 1:
-			_mech = obj_mech_4;
+			_mech = obj_mech_3;
 			break;
 		case 2:
+			_mech = obj_mech_4;
+			break;
+		case 3:
 			_mech = obj_mech_5;
 			break;
 	}

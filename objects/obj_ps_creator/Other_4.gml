@@ -59,8 +59,8 @@ part_type_life(global.pt_sparks, 3, 8);
 
 // pt_rust
 global.pt_rust = part_type_create();
-part_type_shape(global.pt_rust, pt_shape_pixel);
-part_type_size(global.pt_rust, 0.4, 0.5, 0.02, 0.1);
+part_type_shape(global.pt_rust, pt_shape_square);
+part_type_size(global.pt_rust, 0.02, 0.025, 0, 0);
 part_type_scale(global.pt_rust, 1, 1);
 part_type_speed(global.pt_rust, 1.5, 1.5, 0.005, 0);
 part_type_direction(global.pt_rust, 0, 360, 0, 0);

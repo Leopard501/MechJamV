@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_problem_corrosion",
+  "%Name":"obj_problem_low_oil",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_tool_pump","path":"objects/obj_tool_pump/obj_tool_pump.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_problem_corrosion",
+  "name":"obj_problem_low_oil",
   "overriddenProperties":[],
   "parent":{
     "name":"problems",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_problem_corrosion",
-    "path":"sprites/spr_problem_corrosion/spr_problem_corrosion.yy",
+    "name":"spr_problem_placeholder",
+    "path":"sprites/spr_problem_placeholder/spr_problem_placeholder.yy",
   },
   "spriteMaskId":null,
   "visible":true,
