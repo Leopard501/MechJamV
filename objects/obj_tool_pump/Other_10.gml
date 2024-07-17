@@ -17,4 +17,4 @@ if (grabber != -1 && grabber.mirrored) {
 	_off = particle_offset_ym;	
 }
 
-part_particles_create(global.ps_tools, x, y + _off, _part, 1);
+part_particles_create(global.ps_tools, x + 1, y + _off, _part, 1);
