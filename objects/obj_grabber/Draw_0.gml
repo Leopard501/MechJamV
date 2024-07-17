@@ -17,3 +17,5 @@ if (!mirrored) {
 }
 
 draw_self();
+
+//draw_rectangle(min_x, min_y, max_x, max_y, true);

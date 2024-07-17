@@ -4,7 +4,12 @@
   "eventList":[],
   "managed":true,
   "name":"obj_grabber_left",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"min_x","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"max_x","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"140",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"min_y","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"max_y","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"115",},
+  ],
   "parent":{
     "name":"grabbers",
     "path":"folders/Objects/grabbers.yy",
