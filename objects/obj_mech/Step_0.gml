@@ -33,7 +33,7 @@ switch (state) {
 		if (y < room_height - sprite_height / 2) {
 			y += ascend_speed;	
 		} else if (dialog_finished) {
-			state = MECH_STATE.EXITING;
+			state = MECH_STATE.STALLED;
 			update_dialog(3);
 		}
 		break;
