@@ -113,6 +113,7 @@ draw_holo_long = function(_text) {
 }
 
 line_len = function() {
+	if (monitor_line == -1) return -1;
 	return string_length(ds_list_find_value(global.mech.dialog, monitor_line)) - 1;
 }
 

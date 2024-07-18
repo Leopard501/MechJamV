@@ -3,11 +3,12 @@
   "%Name":"obj_mech_3",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":12,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_mech_3",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},"propertyId":{"name":"fix_dialog_start","path":"objects/obj_mech/obj_mech.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},"propertyId":{"name":"feet_y","path":"objects/obj_mech/obj_mech.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"65",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},"propertyId":{"name":"feet_x","path":"objects/obj_mech/obj_mech.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-45",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_mech/obj_mech.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.7",},

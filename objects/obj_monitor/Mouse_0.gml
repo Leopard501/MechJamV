@@ -10,7 +10,7 @@ if (!held) {
 			}
 			break;
 		case MONITOR_SEL.RIGHT:
-			if (global.control.monitor_line < global.mech.get_last_line_num()) {
+			if (global.control.monitor_line < ds_list_size(global.mech.dialog) - 1) {
 				global.control.monitor_line += 1;
 				global.control.monitor_char = global.control.line_len()+1;
 			}

@@ -1,8 +1,10 @@
 enum MECH_STATE {
+	WAITING,
 	APPROACHING,
 	ASCENDING,
 	REPAIR,
 	DESCENDING,
+	STALLED,
 	EXITING,
 }
 
@@ -12,7 +14,7 @@ problems = ds_list_create();
 problem_count = 0;
 temperature = 0;
 dialog = ds_list_create();
-state = MECH_STATE.APPROACHING;
+state = MECH_STATE.WAITING;
 dialog_buffer_time = 0;
 dialog_finished = false;
 
@@ -35,15 +37,17 @@ update_temperature = function() {
 	}
 }
 
-get_last_line_num = function() {
-	if (state == MECH_STATE.ASCENDING || state == MECH_STATE.REPAIR) {
-		return fix_dialog_start-1
-	} else if (state == MECH_STATE.DESCENDING || state == MECH_STATE.EXITING) {
-		return ds_list_size(dialog)-1;
-	} else {
-		return -1;
+update_dialog = function(_event_num) {
+	var _old_size = ds_list_size(dialog);
+	event_user(_event_num);
+	// if something added
+	if (global.control.monitor_line < ds_list_size(dialog) - 1) {
+		global.control.monitor_line = _old_size;
+		dialog_buffer_time = 0;
+		global.control.monitor_char = 0;
+		dialog_finished = false;
 	}
 }
 
-event_user(0);
+update_dialog(0);
 update_temperature();
