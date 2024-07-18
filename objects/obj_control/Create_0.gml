@@ -33,9 +33,18 @@ monitor_line = -1;
 monitor_char = 0;
 monitor_char_time = 0;
 current_mech = 0;
-tutorial_1 = false;
-tutorial_2 = false;
-tutorial_3 = false;
+monitor_hovered = false;
+tutorial = [
+	false, // ignored
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+]
 
 is_grab = function() {
 	if (sel_grab == -1) return false;
@@ -49,7 +58,7 @@ set_grab = function(_new_val) {
 		grabbers[sel_grab].release();
 	} else if (!grabbers[sel_grab].grabbed) {
 		grabbers[sel_grab].grab_pulse = true;
-		tutorial_3 = true;
+		tutorial[3] = true;
 	}
 	
 	grabbers[sel_grab].grabbed = _new_val;

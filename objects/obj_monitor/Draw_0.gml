@@ -23,7 +23,7 @@ if (global.control.monitor_power) {
 draw_self();
 draw_sprite(spr_monitor_buttons, button_index, x, y);
 
-if (hovered) {
+if (global.control.monitor_hovered) {
 	switch (monitor_sel) {
 		case MONITOR_SEL.SCREEN:
 			if (global.control.monitor_line < 0) break;

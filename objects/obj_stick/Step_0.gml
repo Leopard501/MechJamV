@@ -2,7 +2,7 @@ var _dist = sqrt(sqr(191 - mouse_x) + sqr(191 - mouse_y));
 var _angle = point_direction(191, 191, mouse_x, mouse_y);
 
 if (held && _dist > 5) {
-	global.control.tutorial_2 = true;
+	global.control.tutorial[2] = true;
 	global.control.grab_speed = 0.5;
 	if (_dist > 20) {
 		global.control.grab_speed = 1;

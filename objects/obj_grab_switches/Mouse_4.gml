@@ -8,4 +8,4 @@ if (mouse_x < 174) {
 	global.control.sel_grab = 3;
 }
 
-global.control.tutorial_1 = true;
+global.control.tutorial[1] = true;
