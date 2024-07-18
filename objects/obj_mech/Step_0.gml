@@ -4,7 +4,7 @@ update_temperature();
 
 switch (state) {
 	case MECH_STATE.WAITING:
-		if (dialog_finished) {
+		if (dialog_finished && !paused) {
 			state = MECH_STATE.APPROACHING;	
 		}
 		break;
