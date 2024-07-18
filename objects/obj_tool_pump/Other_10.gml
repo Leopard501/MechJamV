@@ -25,3 +25,7 @@ if (grabber != -1 && grabber.mirrored) {
 }
 
 part_particles_create(global.ps_tools, x + 1, y + _off, _part, 1);
+if (!audio_is_playing(global.control.tool_sound)) {
+	global.control.tool_sound = audio_play_sound(sound, 1, true);
+	audio_play_sound(snd_pump_start, 1, false);
+}

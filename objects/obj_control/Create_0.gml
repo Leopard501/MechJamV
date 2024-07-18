@@ -47,6 +47,9 @@ tutorial = [
 	
 	false,
 ]
+grabber_sound = -1;
+tool_sound = -1;
+amb = audio_play_sound(snd_lp_amb, 1, true);
 
 is_grab = function() {
 	if (sel_grab == -1) return false;

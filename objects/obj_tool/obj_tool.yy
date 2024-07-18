@@ -37,6 +37,7 @@
     {"$GMObjectProperty":"v1","%Name":"mirror_sprite","filters":[],"listItems":[],"multiselect":false,"name":"mirror_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_tool_welder_m","path":"sprites/spr_tool_welder_m/spr_tool_welder_m.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_tool_welder_m","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"particle_offset_y","filters":[],"listItems":[],"multiselect":false,"name":"particle_offset_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"particle_offset_ym","filters":[],"listItems":[],"multiselect":false,"name":"particle_offset_ym","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"sound","filters":[],"listItems":[],"multiselect":false,"name":"sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_lp_welder","path":"sounds/snd_lp_welder/snd_lp_welder.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_lp_welder","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -5,3 +5,7 @@ if (held) {
 }
 held = false;
 global.control.set_activated(false);
+
+if (audio_is_playing(global.control.tool_sound)) {
+	audio_stop_sound(global.control.tool_sound);
+}

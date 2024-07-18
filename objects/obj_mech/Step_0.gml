@@ -6,6 +6,9 @@ switch (state) {
 	case MECH_STATE.WAITING:
 		if (dialog_finished && !paused) {
 			state = MECH_STATE.APPROACHING;	
+			if (has_music) {
+				audio_play_sound(snd_music, 1, false);	
+			}
 		}
 		break;
 	case MECH_STATE.APPROACHING:
@@ -65,7 +68,7 @@ if (global.control.monitor_char >= global.control.line_len()) {
 			dialog_buffer_time = 0;
 			global.control.monitor_line++;
 			global.control.monitor_char = 0;
-			audio_play_sound(snd_dialog, 1, false);
+			//audio_play_sound(snd_dialog, 1, false);
 		}
 	} else if (dialog_buffer_time > dialog_buffer_duration) {
 		dialog_finished = true;	

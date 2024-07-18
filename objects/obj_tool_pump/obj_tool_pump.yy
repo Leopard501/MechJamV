@@ -12,6 +12,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"main_sprite","path":"objects/obj_tool/obj_tool.yy",},"resource":{"name":"spr_tool_pump","path":"sprites/spr_tool_pump/spr_tool_pump.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_tool_pump",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"particle_offset_ym","path":"objects/obj_tool/obj_tool.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-15",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"particle_offset_y","path":"objects/obj_tool/obj_tool.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"17",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"sound","path":"objects/obj_tool/obj_tool.yy",},"resource":{"name":"snd_lp_pump","path":"sounds/snd_lp_pump/snd_lp_pump.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_lp_pump",},
   ],
   "parent":{
     "name":"tools",

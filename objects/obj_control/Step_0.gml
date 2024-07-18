@@ -45,6 +45,12 @@ switch (grab_dir) {
 
 var _tool = get_tool();
 
+if (!audio_is_playing(grabber_sound) && _moving) {
+	grabber_sound = audio_play_sound(snd_lp_grabber, 1, true);
+} if (audio_is_playing(grabber_sound) && !_moving) {
+	audio_stop_sound(grabber_sound);	
+}
+
 if (_tool != -1 && 
 	_tool.tool_type == TOOL_TYPE.SCRAPER) {
 	

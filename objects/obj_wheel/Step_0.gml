@@ -2,7 +2,7 @@ if (held) {
 	var _new_angle = point_direction(x, y, mouse_x, mouse_y);
 	if (old_angle > _new_angle) {
 		//if (!audio_is_playing(sound)) {
-		//	audio_play_sound(sound, 1, true);
+		//	sound = audio_play_sound(snd_lp_wheel, 1, true);
 		//}
 		rotation = (rotation - 20) % 360;
 		if (global.control.sel_fluid = FLUID.COOLANT) {
