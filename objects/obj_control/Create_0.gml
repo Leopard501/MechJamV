@@ -44,6 +44,8 @@ tutorial = [
 	false,
 	false,
 	false,
+	
+	false,
 ]
 
 is_grab = function() {
