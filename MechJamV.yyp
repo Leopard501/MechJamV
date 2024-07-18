@@ -70,6 +70,7 @@
     {"id":{"name":"obj_mech_3","path":"objects/obj_mech_3/obj_mech_3.yy",},},
     {"id":{"name":"obj_mech_4","path":"objects/obj_mech_4/obj_mech_4.yy",},},
     {"id":{"name":"obj_mech_5","path":"objects/obj_mech_5/obj_mech_5.yy",},},
+    {"id":{"name":"obj_mech_invis","path":"objects/obj_mech_invis/obj_mech_invis.yy",},},
     {"id":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},},
     {"id":{"name":"obj_monitor_text","path":"objects/obj_monitor_text/obj_monitor_text.yy",},},
     {"id":{"name":"obj_monitor","path":"objects/obj_monitor/obj_monitor.yy",},},
