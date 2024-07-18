@@ -8,4 +8,5 @@ if (mouse_x < 174) {
 	global.control.sel_grab = 3;
 }
 
+audio_play_sound(snd_button, 1, false);
 global.control.tutorial[1] = true;
