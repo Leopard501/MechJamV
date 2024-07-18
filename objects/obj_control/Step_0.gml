@@ -11,7 +11,7 @@ var _moving = false;
 switch (grab_dir) {
 	case DIR.RIGHT:
 		with (grabbers[sel_grab]) {
-			if (x < max_x) {
+			if (x < max_x && !immobilized) {
 				x += x_speed * global.control.grab_speed;
 				_moving = true;
 			}
@@ -19,7 +19,7 @@ switch (grab_dir) {
 		break;
 	case DIR.LEFT:
 		with (grabbers[sel_grab]) {
-			if (x > min_x) {
+			if (x > min_x && !immobilized) {
 				x -= x_speed * global.control.grab_speed;
 				_moving = true;
 			}
@@ -27,7 +27,7 @@ switch (grab_dir) {
 		break;
 	case DIR.UP:
 		with (grabbers[sel_grab]) {
-			if (y > min_y) {
+			if (y > min_y && !immobilized) {
 				y -= y_speed * global.control.grab_speed;
 				_moving = true;
 			}
@@ -35,7 +35,7 @@ switch (grab_dir) {
 		break;
 	case DIR.DOWN:
 		with (grabbers[sel_grab]) {
-			if (y < max_y) {
+			if (y < max_y && !immobilized) {
 				y += y_speed * global.control.grab_speed;	
 				_moving = true;
 			}

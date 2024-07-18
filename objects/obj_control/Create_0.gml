@@ -161,6 +161,9 @@ swap_mech = function() {
 		case 4:
 			_mech = obj_mech_5;
 			break;
+		case 5:
+			_mech = obj_mech_1c;
+			break;
 	}
 	if (_mech == -1) {
 		// todo: end game

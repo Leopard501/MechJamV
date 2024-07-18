@@ -1,6 +1,8 @@
 grabbed = false;
 grab_pulse = false;
 tool = -1;
+immobilized = false;
+moving = false;
 
 acquire = function(_tool) {
 	if (tool != -1) return;

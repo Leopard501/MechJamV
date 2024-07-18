@@ -98,3 +98,17 @@ part_type_colour3(global.pt_oil, $000000, $001C2B, $001C2B);
 part_type_alpha3(global.pt_oil, 1, 1, 0);
 part_type_blend(global.pt_oil, false);
 part_type_life(global.pt_oil, 40, 80);
+
+// pt_blood
+global.pt_blood = part_type_create();
+part_type_shape(global.pt_blood, pt_shape_pixel);
+part_type_size(global.pt_blood, 1, 1, 0, 0);
+part_type_scale(global.pt_blood, 1, 1);
+part_type_speed(global.pt_blood, 0, 0, 0, 0);
+part_type_direction(global.pt_blood, 80, 100, 0, 5);
+part_type_gravity(global.pt_blood, 0.05, 270);
+part_type_orientation(global.pt_blood, 0, 0, 0, 0, false);
+part_type_colour3(global.pt_blood, #FF0000, #980000, #5A000F);
+part_type_alpha3(global.pt_blood, 1, 1, 0);
+part_type_blend(global.pt_blood, false);
+part_type_life(global.pt_blood, 40, 80);

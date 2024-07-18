@@ -17,6 +17,7 @@ dialog = ds_list_create();
 state = MECH_STATE.WAITING;
 dialog_buffer_time = 0;
 dialog_finished = false;
+paused = false;
 
 add_problem = function(_type, _disp_x, _disp_y) {
 	var _problem = instance_create_layer(x + _disp_x, y + _disp_y, "problems", _type);

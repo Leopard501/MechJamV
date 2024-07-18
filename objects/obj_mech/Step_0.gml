@@ -66,7 +66,7 @@ if (global.control.monitor_char >= global.control.line_len()) {
 			global.control.monitor_line++;
 			global.control.monitor_char = 0;
 		}
-	} else if (dialog_buffer_time > dialog_buffer_duration && global.control.monitor_hovered) {
+	} else if (dialog_buffer_time > dialog_buffer_duration) {
 		dialog_finished = true;	
 	} else {
 		dialog_buffer_time++;	
