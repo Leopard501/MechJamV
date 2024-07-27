@@ -1,4 +1,6 @@
-if (!global.control.monitor_power || global.control.monitor_line < 0) exit;
+if (!global.control.monitor_power || 
+	!global.control.has_power || 
+	global.control.monitor_line < 0) exit;
 
 draw_set_color(c_lime);
 draw_set_font(fnt_mon);

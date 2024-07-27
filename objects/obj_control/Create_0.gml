@@ -34,6 +34,10 @@ monitor_char = 0;
 monitor_char_time = 0;
 current_mech = 0;
 monitor_hovered = false;
+has_power = false;
+power_counter = 0;
+power_flicker_count = 7;
+power_delay = 120;
 tutorial = [
 	false, // ignored
 	false,
@@ -49,7 +53,7 @@ tutorial = [
 ]
 grabber_sound = -1;
 tool_sound = -1;
-amb = audio_play_sound(snd_lp_amb, 1, true);
+amb = -1;
 
 is_grab = function() {
 	if (sel_grab == -1) return false;
@@ -92,7 +96,7 @@ get_tool = function() {
 }
 
 draw_holo = function(_text) {
-	if (!monitor_power) exit;
+	if (!monitor_power || !has_power) exit;
 	
 	draw_set_color(0x004709);
 	draw_set_alpha(0.9);
@@ -117,7 +121,7 @@ draw_holo = function(_text) {
 }
 
 draw_holo_long = function(_text) {
-	if (!monitor_power) exit;
+	if (!monitor_power || !has_power) exit;
 	
 	draw_set_color(0x004709);
 	draw_set_alpha(0.9);

@@ -14,7 +14,7 @@ if (held && monitor_sel != MONITOR_SEL.SCREEN) {
 	button_index = 0;	
 }
 
-if (global.control.monitor_power) {
+if (global.control.monitor_power || !global.control.has_power) {
 	image_index = 0;	
 } else {
 	image_index = 1;	

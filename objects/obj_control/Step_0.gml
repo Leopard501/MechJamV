@@ -4,6 +4,24 @@ if (sel_fluid != FLUID.COOLANT) {
 	o_pressure = clamp(o_pressure - 1, 0, 100);	
 }
 
+if (!has_power || power_flicker_count > 0) {
+	power_counter++;
+	if (power_counter > power_delay) {
+		has_power = !has_power;
+		power_counter = 0;
+		power_flicker_count--;
+		power_delay = 3;
+		if (!audio_is_playing(amb)) {
+			amb = audio_play_sound(snd_lp_amb, 1, true);
+			audio_play_sound(snd_power_on, 1, false);
+		}
+	}
+	if (audio_is_playing(grabber_sound)) {
+		audio_stop_sound(grabber_sound);	
+	}
+	exit;
+}
+
 if (sel_grab == -1) exit;
 
 var _moving = false;
