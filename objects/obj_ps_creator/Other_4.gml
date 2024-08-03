@@ -112,3 +112,31 @@ part_type_colour3(global.pt_blood, #FF0000, #980000, #5A000F);
 part_type_alpha3(global.pt_blood, 1, 1, 0);
 part_type_blend(global.pt_blood, false);
 part_type_life(global.pt_blood, 40, 80);
+
+// pt_coolant_splash
+global.pt_coolant_splash = part_type_create();
+part_type_shape(global.pt_coolant_splash, pt_shape_square);
+part_type_size(global.pt_coolant_splash, 0.02, 0.025, 0, 0);
+part_type_scale(global.pt_coolant_splash, 1, 1);
+part_type_speed(global.pt_coolant_splash, 1.5, 1.5, 0.005, 0);
+part_type_direction(global.pt_coolant_splash, 0, 360, 0, 0);
+part_type_gravity(global.pt_coolant_splash, 0.1, 270);
+part_type_orientation(global.pt_coolant_splash, 0, 0, 0, 1, false);
+part_type_colour3(global.pt_coolant_splash, $FFE196, $CC9D28, $CC9D28);
+part_type_alpha3(global.pt_coolant_splash, 1, 0.788, 0);
+part_type_blend(global.pt_coolant_splash, false);
+part_type_life(global.pt_coolant_splash, 10, 30);
+
+// pt_oil_splash
+global.pt_oil_splash = part_type_create();
+part_type_shape(global.pt_oil_splash, pt_shape_square);
+part_type_size(global.pt_oil_splash, 0.02, 0.025, 0, 0);
+part_type_scale(global.pt_oil_splash, 1, 1);
+part_type_speed(global.pt_oil_splash, 1.5, 1.5, 0.005, 0);
+part_type_direction(global.pt_oil_splash, 0, 360, 0, 0);
+part_type_gravity(global.pt_oil_splash, 0.1, 270);
+part_type_orientation(global.pt_oil_splash, 0, 0, 0, 1, false);
+part_type_colour3(global.pt_oil_splash, $000000, $001C2B, $001C2B);
+part_type_alpha3(global.pt_oil_splash, 1, 0.788, 0);
+part_type_blend(global.pt_oil_splash, false);
+part_type_life(global.pt_oil_splash, 10, 30);
