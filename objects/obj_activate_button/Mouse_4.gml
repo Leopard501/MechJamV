@@ -1,5 +1,5 @@
 /// @description Set held
 
-held = true;
+held = global.control.try_hold(self);
 global.control.set_activated(true);
 audio_play_sound(snd_button, 1, false);

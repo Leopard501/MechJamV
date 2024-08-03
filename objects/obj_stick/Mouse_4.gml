@@ -1,3 +1,3 @@
 /// @description set held
 
-held = true;
+held = global.control.try_hold(self);

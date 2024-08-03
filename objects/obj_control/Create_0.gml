@@ -32,6 +32,7 @@ monitor_power = true;
 monitor_line = -1;
 monitor_char = 0;
 monitor_char_time = 0;
+held_thing = -1;
 current_mech = 0;
 monitor_hovered = false;
 has_power = false;
@@ -54,6 +55,24 @@ tutorial = [
 grabber_sound = -1;
 tool_sound = -1;
 amb = -1;
+
+// return value to set is held in component
+try_hold = function(_thing) {
+	if (held_thing == -1) {
+		held_thing = _thing;
+		return true;
+	} else if (held_thing == _thing) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+try_release = function(_thing) {
+	if (held_thing == _thing) {
+		held_thing = -1;	
+	}
+}
 
 is_grab = function() {
 	if (sel_grab == -1) return false;
