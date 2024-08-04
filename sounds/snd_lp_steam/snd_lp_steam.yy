@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_lp_wheel",
+  "%Name":"snd_lp_steam",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":8.518594,
-  "name":"snd_lp_wheel",
+  "duration":2.507506,
+  "name":"snd_lp_steam",
   "parent":{
     "name":"loops",
     "path":"folders/Sounds/loops.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_lp_wheel.wav",
+  "soundFile":"snd_lp_steam.wav",
   "type":0,
-  "volume":1.0,
+  "volume":0.5,
 }

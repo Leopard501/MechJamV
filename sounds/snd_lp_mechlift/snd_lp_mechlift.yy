@@ -12,8 +12,8 @@
   "duration":0.101104,
   "name":"snd_lp_mechlift",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"loops",
+    "path":"folders/Sounds/loops.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

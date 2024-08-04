@@ -18,10 +18,16 @@ state = MECH_STATE.WAITING;
 dialog_buffer_time = 0;
 dialog_finished = false;
 paused = false;
-lift_sound = snd_lp_mechlift
+lift_sound = snd_lp_mechlift;
+
+problem_loops = [
+	snd_lp_parasite,
+	snd_lp_steam,
+	snd_lp_fire,
+]
 
 add_problem = function(_type, _disp_x, _disp_y) {
-	var _problem = instance_create_layer(x + _disp_x, y + _disp_y, "problems", _type);
+	var _problem = instance_create_layer(_disp_x, _disp_y, "problems", _type);
 	ds_list_add(problems, _problem);
 	problem_count++;
 	_problem.mech = self;

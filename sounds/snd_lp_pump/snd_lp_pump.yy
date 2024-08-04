@@ -12,8 +12,8 @@
   "duration":10.060625,
   "name":"snd_lp_pump",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"loops",
+    "path":"folders/Sounds/loops.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

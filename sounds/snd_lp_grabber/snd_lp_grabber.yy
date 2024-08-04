@@ -12,8 +12,8 @@
   "duration":10.419271,
   "name":"snd_lp_grabber",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"loops",
+    "path":"folders/Sounds/loops.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
