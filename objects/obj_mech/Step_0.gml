@@ -17,6 +17,8 @@ switch (state) {
 		} else {
 			state = MECH_STATE.ASCENDING;	
 			update_dialog(1);
+			lift_sound = audio_play_sound(snd_lp_mechlift, 1, true);
+			audio_play_sound(snd_mechlift_start, 1, false);
 		}
 		break;
 	case MECH_STATE.ASCENDING:
@@ -24,20 +26,30 @@ switch (state) {
 			y -= ascend_speed;	
 		} else {
 			state = MECH_STATE.REPAIR;
+			audio_stop_sound(lift_sound);
+			audio_play_sound(snd_mechlift_stop, 1, false);
 		}
 		break;
 	case MECH_STATE.REPAIR:
 		if (problem_count == 0) {
 			state = MECH_STATE.DESCENDING;
 			update_dialog(2);
+			lift_sound = audio_play_sound(snd_lp_mechlift, 1, true);
+			audio_play_sound(snd_mechlift_start, 1, false);
 		}
 		break;
 	case MECH_STATE.DESCENDING:
 		if (y < room_height - sprite_height / 2) {
 			y += ascend_speed;	
-		} else if (dialog_finished) {
-			state = MECH_STATE.STALLED;
-			update_dialog(3);
+		} else {
+			if (audio_is_playing(lift_sound)) {
+				audio_stop_sound(lift_sound);
+				audio_play_sound(snd_mechlift_stop, 1, false);
+			}
+			if (dialog_finished) {
+				state = MECH_STATE.STALLED;
+				update_dialog(3);
+			}
 		}
 		break;
 	case MECH_STATE.STALLED:
