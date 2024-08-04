@@ -125,6 +125,7 @@
     {"id":{"name":"snd_lp_mechlift","path":"sounds/snd_lp_mechlift/snd_lp_mechlift.yy",},},
     {"id":{"name":"snd_lp_parasite","path":"sounds/snd_lp_parasite/snd_lp_parasite.yy",},},
     {"id":{"name":"snd_lp_pump","path":"sounds/snd_lp_pump/snd_lp_pump.yy",},},
+    {"id":{"name":"snd_lp_sparks","path":"sounds/snd_lp_sparks/snd_lp_sparks.yy",},},
     {"id":{"name":"snd_lp_steam","path":"sounds/snd_lp_steam/snd_lp_steam.yy",},},
     {"id":{"name":"snd_lp_welder","path":"sounds/snd_lp_welder/snd_lp_welder.yy",},},
     {"id":{"name":"snd_lp_wheel","path":"sounds/snd_lp_wheel/snd_lp_wheel.yy",},},
