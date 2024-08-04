@@ -6,4 +6,5 @@ if (grabber = -1) {
 	resting = false;
 	other.has_tool = true;
 	hook = other;
+	velocity = 0;
 }
