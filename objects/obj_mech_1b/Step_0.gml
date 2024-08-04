@@ -41,7 +41,7 @@ switch (state) {
 		}
 		break;
 	case MECH_STATE.STALLED:
-		if (dialog_finished) {
+		if (dialog_finished && !need_hit) {
 			state = MECH_STATE.EXITING;	
 		}
 		break;

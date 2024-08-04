@@ -105,6 +105,7 @@
     {"id":{"name":"ps_sparks","path":"particles/ps_sparks/ps_sparks.yy",},},
     {"id":{"name":"ps_steam","path":"particles/ps_steam/ps_steam.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
+    {"id":{"name":"snd_bonk","path":"sounds/snd_bonk/snd_bonk.yy",},},
     {"id":{"name":"snd_button_out","path":"sounds/snd_button_out/snd_button_out.yy",},},
     {"id":{"name":"snd_button","path":"sounds/snd_button/snd_button.yy",},},
     {"id":{"name":"snd_dialog","path":"sounds/snd_dialog/snd_dialog.yy",},},
