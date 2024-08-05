@@ -6,8 +6,8 @@ switch (state) {
 	case MECH_STATE.WAITING:
 		if (dialog_finished && !paused) {
 			state = MECH_STATE.APPROACHING;	
-			if (has_music) {
-				audio_play_sound(snd_music, 1, false);	
+			if (music != noone) {
+				audio_play_sound(music, 1, false);	
 			}
 		}
 		break;

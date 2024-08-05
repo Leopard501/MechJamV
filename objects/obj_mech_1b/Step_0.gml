@@ -7,7 +7,7 @@ switch (state) {
 		if (dialog_finished && !paused) {
 			state = MECH_STATE.APPROACHING;	
 			if (has_music) {
-				audio_play_sound(snd_music, 1, false);	
+				audio_play_sound(snd_music_1, 1, false);	
 			}
 		}
 		break;

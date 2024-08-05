@@ -11,7 +11,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_mech/obj_mech.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.4",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},"propertyId":{"name":"feet_y","path":"objects/obj_mech/obj_mech.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"55",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},"propertyId":{"name":"has_music","path":"objects/obj_mech/obj_mech.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mech","path":"objects/obj_mech/obj_mech.yy",},"propertyId":{"name":"music","path":"objects/obj_mech/obj_mech.yy",},"resource":{"name":"snd_music_1c","path":"sounds/snd_music_1c/snd_music_1c.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_music_1c",},
   ],
   "parent":{
     "name":"mechs",
