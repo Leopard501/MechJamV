@@ -104,8 +104,6 @@ for (var _i = 0; _i < ds_list_size(problems); _i++) {
 	}
 }
 
-//show_debug_message(_loop_sounds[0]);
-
 for (var _i = 0; _i < array_length(_loop_sounds); _i++) {
 	if (_loop_sounds[_i] != -1) {
 		if (!audio_is_playing(problem_loops[_i])) {

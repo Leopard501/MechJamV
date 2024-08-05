@@ -6,8 +6,8 @@ switch (state) {
 	case MECH_STATE.WAITING:
 		if (dialog_finished && !paused) {
 			state = MECH_STATE.APPROACHING;	
-			if (has_music) {
-				audio_play_sound(snd_music_1, 1, false);	
+			if (music != noone) {
+				audio_play_sound(music, 1, false);	
 			}
 		}
 		break;
@@ -75,6 +75,32 @@ if (global.control.monitor_char >= global.control.line_len()) {
 		dialog_finished = true;	
 	} else {
 		dialog_buffer_time++;	
+	}
+}
+
+#endregion
+
+#region problem_loops
+
+var _loop_sounds = array_create(array_length(problem_loops), -1);
+
+for (var _i = 0; _i < ds_list_size(problems); _i++) {
+	var _problem = ds_list_find_value(problems, _i);
+	if (instance_exists(_problem) && _problem.sound_loop_idx != -1) {
+		//show_debug_message($"{problem_count}, {_problem.sound_loop_idx}")
+		_loop_sounds[_problem.sound_loop_idx] = _problem.sound_loop;
+	}
+}
+
+for (var _i = 0; _i < array_length(_loop_sounds); _i++) {
+	if (_loop_sounds[_i] != -1) {
+		if (!audio_is_playing(problem_loops[_i])) {
+			problem_loops[_i] = audio_play_sound(_loop_sounds[_i], 1, true);	
+		}	
+	} else {
+		if (audio_is_playing(problem_loops[_i])) {
+			audio_stop_sound(problem_loops[_i]);	
+		}
 	}
 }
 
