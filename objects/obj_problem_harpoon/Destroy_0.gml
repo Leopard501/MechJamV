@@ -5,4 +5,7 @@ with (global.control.grabbers[global.control.sel_grab]) {
 	immobilized = false;	
 }
 
-instance_create_layer(x, y, "tools", obj_tool_harpoon);
+audio_play_sound(snd_unstab, 1, false);
+
+var _tool = instance_create_layer(x, y, "tools", obj_tool_harpoon);
+grabber.acquire(_tool);

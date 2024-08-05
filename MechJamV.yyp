@@ -141,6 +141,8 @@
     {"id":{"name":"snd_scrape","path":"sounds/snd_scrape/snd_scrape.yy",},},
     {"id":{"name":"snd_shock","path":"sounds/snd_shock/snd_shock.yy",},},
     {"id":{"name":"snd_squish","path":"sounds/snd_squish/snd_squish.yy",},},
+    {"id":{"name":"snd_strain","path":"sounds/snd_strain/snd_strain.yy",},},
+    {"id":{"name":"snd_unstab","path":"sounds/snd_unstab/snd_unstab.yy",},},
     {"id":{"name":"snd_wheel","path":"sounds/snd_wheel/snd_wheel.yy",},},
     {"id":{"name":"GM_Electricity_spr_Electricity1","path":"sprites/GM_Electricity_spr_Electricity1/GM_Electricity_spr_Electricity1.yy",},},
     {"id":{"name":"GM_Fire_spr_Fire","path":"sprites/GM_Fire_spr_Fire/GM_Fire_spr_Fire.yy",},},
