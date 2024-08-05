@@ -25,6 +25,7 @@ problem_loops = [
 	snd_lp_steam,
 	snd_lp_fire,
 	snd_lp_sparks,
+	snd_lp_drip,
 ]
 
 add_problem = function(_type, _disp_x, _disp_y) {

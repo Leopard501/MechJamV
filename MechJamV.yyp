@@ -120,6 +120,7 @@
     {"id":{"name":"snd_lever_out","path":"sounds/snd_lever_out/snd_lever_out.yy",},},
     {"id":{"name":"snd_lever","path":"sounds/snd_lever/snd_lever.yy",},},
     {"id":{"name":"snd_lp_amb","path":"sounds/snd_lp_amb/snd_lp_amb.yy",},},
+    {"id":{"name":"snd_lp_drip","path":"sounds/snd_lp_drip/snd_lp_drip.yy",},},
     {"id":{"name":"snd_lp_fire","path":"sounds/snd_lp_fire/snd_lp_fire.yy",},},
     {"id":{"name":"snd_lp_grabber","path":"sounds/snd_lp_grabber/snd_lp_grabber.yy",},},
     {"id":{"name":"snd_lp_mechlift","path":"sounds/snd_lp_mechlift/snd_lp_mechlift.yy",},},
