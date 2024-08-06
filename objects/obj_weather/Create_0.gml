@@ -19,7 +19,7 @@ transition_color = function(_int, _count, _c1s, _c2s) {
 
 swap = function() {
 	var _m = global.control.current_mech;
-	if (_m != 1) {
+	if (_m != 0) {
 		global.weather.time = 0;
 	}
 }

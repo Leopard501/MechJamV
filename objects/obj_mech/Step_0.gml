@@ -107,8 +107,11 @@ for (var _i = 0; _i < ds_list_size(problems); _i++) {
 for (var _i = 0; _i < array_length(_loop_sounds); _i++) {
 	if (_loop_sounds[_i] != -1) {
 		if (!audio_is_playing(problem_loops[_i])) {
-			problem_loops[_i] = audio_play_sound(_loop_sounds[_i], 1, true);	
-		}	
+			problem_loops[_i] = audio_play_sound(_loop_sounds[_i], 1, true, 0);	
+		} else {
+			var _v = 1 - clamp((x - (room_width / 2)) / (room_width / 2 + 100), 0, 1);
+			audio_sound_gain(problem_loops[_i], _v, 0)
+		}
 	} else {
 		if (audio_is_playing(problem_loops[_i])) {
 			audio_stop_sound(problem_loops[_i]);	
