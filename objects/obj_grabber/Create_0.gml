@@ -22,6 +22,7 @@ acquire = function(_tool) {
 }
 
 release = function() {
+	immobilized = false;
 	grabbed = false;
 	if (tool != -1) {
 		tool.activated = false;

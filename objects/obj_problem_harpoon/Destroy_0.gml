@@ -1,8 +1,10 @@
 global.mech.problem_count--;
 global.mech.image_index++;
 
-with (global.control.grabbers[global.control.sel_grab]) {
-	immobilized = false;	
+for (var _i = 0; _i < 4; _i++) {
+	with (global.control.grabbers[_i]) {
+		immobilized = false;	
+	}
 }
 
 audio_play_sound(snd_unstab, 1, false);

@@ -125,7 +125,7 @@ switch (global.control.current_mech) {
 				audio_play_sound(snd_power_down, 1, false);
 			}
 		}
-		if (random(800) < 1) {
+		if (random(1000) < 1) {
 			audio_play_sound(planes[floor(random(4))], 1, false);
 		}
 		_c1 = merge_color(_c1, #310000, clamp(bomb_tail / 300, 0, 1));
