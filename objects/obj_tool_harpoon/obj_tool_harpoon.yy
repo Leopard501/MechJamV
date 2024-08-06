@@ -11,6 +11,8 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"main_sprite","path":"objects/obj_tool/obj_tool.yy",},"resource":{"name":"spr_harpoon","path":"sprites/spr_harpoon/spr_harpoon.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_harpoon",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"mirror_sprite","path":"objects/obj_tool/obj_tool.yy",},"resource":{"name":"spr_harpoon","path":"sprites/spr_harpoon/spr_harpoon.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_harpoon",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"title","path":"objects/obj_tool/obj_tool.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Harpoon",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"tool_type","path":"objects/obj_tool/obj_tool.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"TOOL_TYPE.NONE",},
   ],
   "parent":{
     "name":"tools",

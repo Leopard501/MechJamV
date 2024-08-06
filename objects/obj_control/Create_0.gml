@@ -103,6 +103,7 @@ set_grab = function(_new_val) {
 set_activated = function(_val) {
 	if (sel_grab == -1) exit;
 	if (grabbers[sel_grab].tool == -1) exit;
+	if (grabbers[sel_grab].tool.tool_type == TOOL_TYPE.SCRAPER) exit;
 
 	with (grabbers[sel_grab].tool) {
 		activated = _val;	

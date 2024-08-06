@@ -8,6 +8,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"tool_type","path":"objects/obj_tool/obj_tool.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"TOOL_TYPE.PATCH",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"mirror_sprite","path":"objects/obj_tool/obj_tool.yy",},"resource":{"name":"spr_tool_patch_m","path":"sprites/spr_tool_patch_m/spr_tool_patch_m.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_tool_patch_m",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"main_sprite","path":"objects/obj_tool/obj_tool.yy",},"resource":{"name":"spr_tool_patch","path":"sprites/spr_tool_patch/spr_tool_patch.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_tool_patch",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},"propertyId":{"name":"title","path":"objects/obj_tool/obj_tool.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Patch",},
   ],
   "parent":{
     "name":"tools",

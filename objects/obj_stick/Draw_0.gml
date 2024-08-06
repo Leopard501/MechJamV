@@ -34,6 +34,17 @@ switch (global.control.grab_dir) {
 
 draw_self();
 
+var _d = description;
+if (global.control.sel_grab != -1) {
+	var _hn = global.control.grabbers[global.control.sel_grab].hovering_name;
+	if (_hn != -1) {
+		_d = _hn;
+		if (global.control.get_tool() != -1) {
+			_d = $"Move {_hn}";	
+		}
+	}
+}
+
 if (held || hovered) {
-	global.control.draw_holo(description);
+	global.control.draw_holo(_d);
 }
