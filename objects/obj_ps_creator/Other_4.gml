@@ -140,3 +140,45 @@ part_type_colour3(global.pt_oil_splash, $000000, $001C2B, $001C2B);
 part_type_alpha3(global.pt_oil_splash, 1, 0.788, 0);
 part_type_blend(global.pt_oil_splash, false);
 part_type_life(global.pt_oil_splash, 10, 30);
+
+// pt_water
+global.pt_water = part_type_create();
+part_type_shape(global.pt_water, pt_shape_pixel);
+part_type_size(global.pt_water, 1, 1, 0, 0);
+part_type_scale(global.pt_water, 1, 1);
+part_type_speed(global.pt_water, 0, 0, 0, 0);
+part_type_direction(global.pt_water, 80, 100, 0, 5);
+part_type_gravity(global.pt_water, 0.05, 270);
+part_type_orientation(global.pt_water, 0, 0, 0, 0, false);
+part_type_colour3(global.pt_water, #6a83ab, #6a83ab, #6a83ab);
+part_type_alpha3(global.pt_water, 0.7, 0.7, 0);
+part_type_blend(global.pt_water, false);
+part_type_life(global.pt_water, 60, 120);
+
+// pt_dustcloud
+global.pt_dustcloud = part_type_create();
+part_type_shape(global.pt_dustcloud, pt_shape_explosion);
+part_type_size(global.pt_dustcloud, 0.1, 0.2, 0, 0);
+part_type_scale(global.pt_dustcloud, 1, 1);
+part_type_speed(global.pt_dustcloud, 0, 0, 0, 0);
+part_type_direction(global.pt_dustcloud, 80, 100, 0, 0);
+part_type_gravity(global.pt_dustcloud, 0.005, 270);
+part_type_orientation(global.pt_dustcloud, 0, 360, 1, 1, false);
+part_type_colour3(global.pt_dustcloud, $4C657F, $32597F, $3D6B99);
+part_type_alpha3(global.pt_dustcloud, 1, 0.561, 0);
+part_type_blend(global.pt_dustcloud, false);
+part_type_life(global.pt_dustcloud, 120, 150);
+
+// pt_dustbit
+global.pt_dustbit = part_type_create();
+part_type_shape(global.pt_dustbit, pt_shape_square);
+part_type_size(global.pt_dustbit, 0.02, 0.025, 0, 0);
+part_type_scale(global.pt_dustbit, 1, 1);
+part_type_speed(global.pt_dustbit, 0, 0, 0, 0);
+part_type_direction(global.pt_dustbit, 0, 360, 0, 0);
+part_type_gravity(global.pt_dustbit, 0.1, 270);
+part_type_orientation(global.pt_dustbit, 0, 0, 0, 1, false);
+part_type_colour3(global.pt_dustbit, $4C657F, $32597F, $3D6B99);
+part_type_alpha3(global.pt_dustbit, 1, 0.788, 0);
+part_type_blend(global.pt_dustbit, false);
+part_type_life(global.pt_dustbit, 10, 30);

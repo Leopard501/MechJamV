@@ -14,13 +14,6 @@ enum FLUID {
 }
 
 global.control = self;
-global.creak_sounds = [
-	snd_creak_1,
-	snd_creak_2,
-	snd_creak_3,
-	snd_creak_4,
-	snd_creak_5,
-]
 
 grabbers = [
 	inst_grabber_left,
@@ -209,6 +202,9 @@ swap_mech = function() {
 			_mech = obj_mech_invis;
 			break;
 	}
+	
+	global.weather.swap();
+	
 	if (_mech == -1) {
 		// todo: end game
 		exit;	

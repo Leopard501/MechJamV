@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_dark",
+    "path":"sprites/spr_dark/spr_dark.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
