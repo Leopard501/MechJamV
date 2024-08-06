@@ -99,7 +99,6 @@ var _loop_sounds = array_create(array_length(problem_loops), -1);
 for (var _i = 0; _i < ds_list_size(problems); _i++) {
 	var _problem = ds_list_find_value(problems, _i);
 	if (instance_exists(_problem) && _problem.sound_loop_idx != -1) {
-		//show_debug_message($"{problem_count}, {_problem.sound_loop_idx}")
 		_loop_sounds[_problem.sound_loop_idx] = _problem.sound_loop;
 	}
 }

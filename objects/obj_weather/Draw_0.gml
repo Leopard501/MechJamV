@@ -13,7 +13,7 @@ switch (global.control.current_mech) {
 		break;
 	} case 2: { // fog
 		time++;
-		var _cs = transition_color(3000, 4, [
+		var _cs = transition_color(2000, 4, [
 			#010516, #2d2832, #646478, #b4bed2], [
 			#010516, #010516, #1e2832, #324664]);
 		_c1 = _cs[0];
