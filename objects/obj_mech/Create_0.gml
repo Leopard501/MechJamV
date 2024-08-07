@@ -6,6 +6,7 @@ enum MECH_STATE {
 	DESCENDING,
 	STALLED,
 	EXITING,
+	SPECIAL,
 }
 
 global.mech = self;
@@ -31,7 +32,7 @@ problem_loops = [
 state_control = function() {
 	switch (state) {
 		case MECH_STATE.WAITING:
-			if (dialog_finished && !paused) {
+			if ((dialog_finished || !global.control.monitor_power) && !paused) {
 				state = MECH_STATE.APPROACHING;	
 				if (music != noone) {
 					audio_play_sound(music, 1, false);	
@@ -59,10 +60,15 @@ state_control = function() {
 			break;
 		case MECH_STATE.REPAIR:
 			if (problem_count == 0) {
-				state = MECH_STATE.DESCENDING;
+				state = MECH_STATE.STALLED;
 				update_dialog(2);
+			}
+			break;
+		case MECH_STATE.STALLED:
+			if (dialog_finished || !global.control.monitor_power) {
 				lift_sound = audio_play_sound(snd_lp_mechlift, 1, true);
 				audio_play_sound(snd_mechlift_start, 1, false);
+				state = MECH_STATE.DESCENDING;	
 			}
 			break;
 		case MECH_STATE.DESCENDING:
@@ -73,20 +79,15 @@ state_control = function() {
 					audio_stop_sound(lift_sound);
 					audio_play_sound(snd_mechlift_stop, 1, false);
 				}
-				if (dialog_finished) {
-					state = MECH_STATE.STALLED;
+				if (dialog_finished || !global.control.monitor_power) {
+					state = MECH_STATE.EXITING;
 					update_dialog(3);
 				}
 			}
 			break;
-		case MECH_STATE.STALLED:
-			if (dialog_finished) {
-				state = MECH_STATE.EXITING;	
-			}
-			break;
 		case MECH_STATE.EXITING:
 			x -= move_speed;
-			if (x < -sprite_width && dialog_finished) {
+			if (x < -sprite_width && (dialog_finished || !global.control.monitor_power)) {
 				global.control.swap_mech();	
 			}
 			break;
@@ -98,16 +99,9 @@ dialog_control = function() {
 	// if not finished showing chars
 	if (global.control.monitor_char < global.control.line_len()) return;
 	
-	// if before fix
+	// if before end
 	if (global.control.monitor_line < ds_list_size(dialog) - 1) { 
 		dialog_buffer_time++;
-		// if exceeded buffer time
-		if (dialog_buffer_time > dialog_buffer_duration) {
-			dialog_buffer_time = 0;
-			global.control.monitor_line++;
-			global.control.monitor_char = 0;
-			//audio_play_sound(snd_dialog, 1, false);
-		}
 	} else if (dialog_buffer_time > dialog_buffer_duration) {
 		dialog_finished = true;	
 	} else {
@@ -161,15 +155,15 @@ update_temperature = function() {
 }
 
 update_dialog = function(_event_num) {
-	var _old_size = ds_list_size(dialog);
-	event_user(_event_num);
-	// if something added
-	if (global.control.monitor_line < ds_list_size(dialog) - 1) {
+	if (_event_num > -1) { 
+		var _old_size = ds_list_size(dialog);
+		event_user(_event_num);
 		global.control.monitor_line = _old_size;
-		dialog_buffer_time = 0;
-		global.control.monitor_char = 0;
-		dialog_finished = false;
 	}
+
+	dialog_buffer_time = 0;
+	global.control.monitor_char = 0;
+	dialog_finished = false;
 }
 
 update_dialog(0);

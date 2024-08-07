@@ -31,7 +31,6 @@ o_pressure = 0;
 monitor_power = true;
 monitor_line = -1;
 monitor_char = 0;
-monitor_char_time = 0;
 held_thing = -1;
 current_mech = 0;
 monitor_hovered = false;
@@ -168,11 +167,11 @@ line_len = function() {
 }
 
 inc_char = function() {
-	if (monitor_char_time < 2) {
-		monitor_char_time++;	
-	} else {
-		monitor_char_time = 0;
-		monitor_char = clamp(monitor_char + 1, 1, line_len()+1);
+	if (monitor_char < line_len()+1) {
+		if (monitor_char % 2 == 0) {
+			audio_play_sound(snd_dialog, 1, false, 0.1, 0, random_range(0.8, 1.2));
+		}
+		monitor_char++;
 	}
 }
 

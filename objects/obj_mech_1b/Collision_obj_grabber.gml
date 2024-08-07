@@ -1,7 +1,7 @@
 /// @description Bonk
 
 if (global.control.grab_speed == 1 && 
-		state == MECH_STATE.STALLED && 
+		state == MECH_STATE.SPECIAL && 
 		need_hit && dialog_finished &&
 		global.control.sel_grab == other.idx) {
 	need_hit = false;

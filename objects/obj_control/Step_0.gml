@@ -1,8 +1,14 @@
+#region fluids
+
 if (sel_fluid != FLUID.COOLANT) {
 	c_pressure = clamp(c_pressure - 1, 0, 100);	
 } if (sel_fluid != FLUID.OIL) {
 	o_pressure = clamp(o_pressure - 1, 0, 100);	
 }
+
+#endregion
+
+#region power
 
 if (!has_power || power_flicker_count > 0) {
 	power_counter++;
@@ -21,6 +27,10 @@ if (!has_power || power_flicker_count > 0) {
 	}
 	exit;
 }
+
+#endregion
+
+#region tools & grabbers
 
 if (sel_grab == -1) exit;
 
@@ -82,3 +92,5 @@ if (_tool != -1 &&
 	
 	_tool.moving = _moving;
 }
+
+#endregion
