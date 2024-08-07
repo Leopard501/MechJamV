@@ -32,6 +32,7 @@
     {"$GMObjectProperty":"v1","%Name":"temperature","filters":[],"listItems":[],"multiselect":false,"name":"temperature","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"sound_loop","filters":[],"listItems":[],"multiselect":false,"name":"sound_loop","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sound_loop_idx","filters":[],"listItems":[],"multiselect":false,"name":"sound_loop_idx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"required_tool","filters":[],"listItems":[],"multiselect":false,"name":"required_tool","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"TOOL_TYPE.NONE","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

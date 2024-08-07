@@ -8,7 +8,9 @@
   ],
   "managed":true,
   "name":"obj_problem_low_oil",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_problem","path":"objects/obj_problem/obj_problem.yy",},"propertyId":{"name":"required_tool","path":"objects/obj_problem/obj_problem.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"TOOL_TYPE.PUMP",},
+  ],
   "parent":{
     "name":"problems",
     "path":"folders/Objects/problems.yy",

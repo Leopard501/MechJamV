@@ -4,7 +4,7 @@ if (grabbed) {
 	image_index = 0;	
 }
 
-if (global.control.sel_grab != -1 && global.control.sel_grab == idx) {
+if (global.control.sel_grab != -1 && global.control.sel_grab == idx && global.control.has_power) {
 	image_index += 2;
 }
 

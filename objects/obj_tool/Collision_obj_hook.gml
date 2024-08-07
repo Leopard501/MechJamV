@@ -4,7 +4,7 @@ if (other == hook || other.has_tool) exit;
 
 if (grabber = -1) {
 	resting = false;
-	other.has_tool = true;
+	other.tool = self;
 	hook = other;
 	velocity = 0;
 }

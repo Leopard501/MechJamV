@@ -9,7 +9,7 @@ acquire = function(_tool) {
 	if (tool != -1) return;
 	
 	tool = _tool;
-	if (tool.hook != -1) tool.hook.has_tool = false;
+	if (tool.hook != -1) tool.hook.tool = -1;
 	tool.hook = -1;
 	tool.grabber = self;
 	tool.resting = false;
