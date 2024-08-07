@@ -160,6 +160,8 @@ update_dialog = function(_event_num) {
 		event_user(_event_num);
 		if (ds_list_size(dialog) > _old_size) {
 			global.control.monitor_line = _old_size;
+		} else {
+			return;	
 		}
 	}
 
