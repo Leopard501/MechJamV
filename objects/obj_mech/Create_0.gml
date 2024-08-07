@@ -158,7 +158,9 @@ update_dialog = function(_event_num) {
 	if (_event_num > -1) { 
 		var _old_size = ds_list_size(dialog);
 		event_user(_event_num);
-		global.control.monitor_line = _old_size;
+		if (ds_list_size(dialog) > _old_size) {
+			global.control.monitor_line = _old_size;
+		}
 	}
 
 	dialog_buffer_time = 0;

@@ -38,19 +38,6 @@ has_power = false;
 power_counter = 0;
 power_flicker_count = 7;
 power_delay = 120;
-tutorial = [
-	false, // ignored
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	
-	false,
-]
 grabber_sound = -1;
 tool_sound = -1;
 amb = -1;
@@ -93,7 +80,6 @@ set_grab = function(_new_val) {
 		grabbers[sel_grab].release();
 	} else if (!grabbers[sel_grab].grabbed) {
 		grabbers[sel_grab].grab_pulse = true;
-		tutorial[3] = true;
 	}
 	
 	grabbers[sel_grab].grabbed = _new_val;
@@ -169,7 +155,7 @@ line_len = function() {
 inc_char = function() {
 	if (monitor_char < line_len()+1) {
 		if (monitor_char % 2 == 0) {
-			audio_play_sound(snd_dialog, 1, false, 0.1, 0, random_range(0.8, 1.2));
+			audio_play_sound(snd_dialog, 1, false, 0.2, 0, random_range(0.8, 1.2));
 		}
 		monitor_char++;
 	}

@@ -7,7 +7,6 @@ if (held && _dist > 5) {
 			moving = true;	
 		}
 	}
-	global.control.tutorial[2] = true;
 	global.control.grab_speed = 0.5;
 	if (_dist > 20) {
 		global.control.grab_speed = 1;
