@@ -18,6 +18,7 @@ dialog = ds_list_create();
 state = MECH_STATE.WAITING;
 dialog_buffer_time = 0;
 dialog_finished = false;
+dialog_forced = true;
 paused = false;
 lift_sound = snd_lp_mechlift;
 
@@ -159,6 +160,7 @@ update_dialog = function(_event_num) {
 		var _old_size = ds_list_size(dialog);
 		event_user(_event_num);
 		if (ds_list_size(dialog) > _old_size) {
+			dialog_forced = true;
 			global.control.monitor_line = _old_size;
 		} else {
 			return;	

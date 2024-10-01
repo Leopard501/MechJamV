@@ -6,7 +6,5 @@ enum MONITOR_SEL {
 }
 
 tutorial = true;
-blink_time = 0;
-blinked = true;
 monitor_sel = MONITOR_SEL.SCREEN;
 held = false;

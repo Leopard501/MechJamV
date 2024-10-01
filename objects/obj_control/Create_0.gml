@@ -49,6 +49,8 @@ tool_sound = -1;
 amb = -1;
 holo_text = "";
 holo_state = HOLO_STATE.NONE;
+blink = true;
+blink_time = 0;
 
 // return value to set is held in component
 try_hold = function(_thing) {

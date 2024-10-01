@@ -1,3 +1,13 @@
+#region blink
+
+if (blink_time == 30) {
+	blink_time = 0;
+	blink = !blink;
+}
+blink_time++;
+
+#endregion
+
 #region fluids
 
 if (sel_fluid != FLUID.COOLANT) {

@@ -1,6 +1,8 @@
 #region light
 
-if (global.control.monitor_power && global.control.holo_state != HOLO_STATE.NONE) {
+if (global.control.has_power && 
+	global.control.monitor_power && 
+	global.control.holo_state != HOLO_STATE.NONE) {
 	image_index = 0;	
 } else {
 	image_index = 1;	
@@ -25,19 +27,21 @@ with (global.control) {
 		draw_set_color(c_lime);
 		draw_set_font(fnt_holo);
 		switch holo_state {
-			case HOLO_STATE.SHORT:				
+			case HOLO_STATE.SHORT:
 				draw_set_halign(fa_center);
 				draw_text(x, y - 1, holo_text);
 				break;
 			case HOLO_STATE.LONG:
 				draw_set_halign(fa_left);
 				draw_text_ext(x - 95, y - 30, holo_text, 12, 190);
+				if (monitor_char >= line_len() && blink && global.mech.dialog_forced) {
+					draw_set_halign(fa_right);
+					draw_text(x + 95, y - 1, monitor_line < ds_list_size(global.mech.dialog) - 1 ? ">" : "x");
+				}
 				break;
 		}
 		draw_set_color(c_white);
 	}
-
-	holo_state = HOLO_STATE.NONE;
 }
 
 #endregion
