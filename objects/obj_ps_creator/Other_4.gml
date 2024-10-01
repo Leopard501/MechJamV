@@ -71,6 +71,20 @@ part_type_alpha3(global.pt_rust, 1, 0.788, 0);
 part_type_blend(global.pt_rust, false);
 part_type_life(global.pt_rust, 10, 30);
 
+// pt_rust_nograv
+global.pt_rust_nograv = part_type_create();
+part_type_shape(global.pt_rust_nograv, pt_shape_square);
+part_type_size(global.pt_rust_nograv, 0.02, 0.025, 0, 0);
+part_type_scale(global.pt_rust_nograv, 1, 1);
+part_type_speed(global.pt_rust_nograv, 0.1, 0.2, 0, 0);
+part_type_direction(global.pt_rust_nograv, 0, 360, 0, 0);
+part_type_gravity(global.pt_rust_nograv, 0, 270);
+part_type_orientation(global.pt_rust_nograv, 0, 0, 0, 1, false);
+part_type_colour3(global.pt_rust_nograv, $008CFF, $0077FF, $000091);
+part_type_alpha3(global.pt_rust_nograv, 0.7, 0.4, 0);
+part_type_blend(global.pt_rust_nograv, false);
+part_type_life(global.pt_rust_nograv, 20, 45);
+
 // pt_coolent
 global.pt_coolent = part_type_create();
 part_type_shape(global.pt_coolent, pt_shape_pixel);
