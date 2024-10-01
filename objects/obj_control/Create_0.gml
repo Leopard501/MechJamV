@@ -13,6 +13,12 @@ enum FLUID {
 	FUEL,
 }
 
+enum HOLO_STATE {
+	NONE,
+	SHORT,
+	LONG,
+}
+
 global.control = self;
 
 grabbers = [
@@ -41,6 +47,8 @@ power_delay = 120;
 grabber_sound = -1;
 tool_sound = -1;
 amb = -1;
+holo_text = "";
+holo_state = HOLO_STATE.NONE;
 
 // return value to set is held in component
 try_hold = function(_thing) {
@@ -100,51 +108,9 @@ get_tool = function() {
 	return grabbers[sel_grab].tool;
 }
 
-draw_holo = function(_text) {
-	if (!monitor_power || !has_power) exit;
-	
-	draw_set_color(0x004709);
-	draw_set_alpha(0.9);
-	
-	draw_rectangle(x - 60, y - 2, x + 60, y + 10, false);
-	
-	draw_set_alpha(0.5);
-	
-	draw_triangle(x - 60, y + 10, x + 60, y + 10, x, 134, false);
-	
-	draw_set_alpha(1);
-	draw_set_color(c_lime);
-	draw_set_font(fnt_holo);
-	draw_set_halign(fa_center);
-	
-	draw_text(x, y - 1, _text);
-	
-	draw_set_color(c_white);
-	
-	// don't work, don't care?
-	draw_sprite(spr_holo, 1, x, y);
-}
-
-draw_holo_long = function(_text) {
-	if (!monitor_power || !has_power) exit;
-	
-	draw_set_color(0x004709);
-	draw_set_alpha(0.9);
-	
-	draw_rectangle(x - 100, y - 35, x + 100, y + 10, false);
-	
-	draw_set_alpha(0.5);
-	
-	draw_triangle(x - 100, y + 10, x + 100, y + 10, x, 134, false);
-	
-	draw_set_alpha(1);
-	draw_set_color(c_lime);
-	draw_set_font(fnt_holo);
-	draw_set_halign(fa_left);
-	
-	draw_text_ext(x - 95, y - 30, _text, 12, 190);
-	
-	draw_set_color(c_white);
+set_holo = function(_text, _state) {
+	holo_text = _text;
+	holo_state = _state;
 }
 
 line_len = function() {

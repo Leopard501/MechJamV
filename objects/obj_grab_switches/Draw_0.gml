@@ -4,12 +4,16 @@ draw_self();
 
 if (!hovered) exit;
 
+var _d = "";
+
 if (mouse_x < 174) {
-	global.control.draw_holo("Select Left Grabber");
+	_d = "Select Left Grabber";
 } else if (mouse_x < 191) {
-	global.control.draw_holo("Select Ceiling Grabber");
+	_d = "Select Ceiling Grabber";
 } else if (mouse_x < 208) {
-	global.control.draw_holo("Select Floor Grabber");
+	_d = "Select Floor Grabber";
 } else {
-	global.control.draw_holo("Select Right Grabber");
+	_d = "Select Right Grabber";
 }
+
+global.control.set_holo(_d, HOLO_STATE.SHORT);

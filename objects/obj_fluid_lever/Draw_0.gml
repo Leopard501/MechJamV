@@ -10,5 +10,5 @@ if (global.control.sel_fluid == FLUID.COOLANT) {
 draw_self();
 
 if (held || hovered) {
-	global.control.draw_holo(_d);
+	global.control.set_holo(_d, HOLO_STATE.SHORT);
 }

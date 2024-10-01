@@ -44,23 +44,23 @@ draw_sprite(spr_m_power_button, _power_idx, x, y);
 draw_sprite(spr_m_left_button, _left_idx, x, y);
 draw_sprite(spr_m_right_button, _right_idx, x, y);
 
-if (global.control.monitor_hovered && ds_list_size(global.mech.dialog) > 0) {
+if (/*global.control.monitor_hovered && */ds_list_size(global.mech.dialog) > 0) {
 	switch (monitor_sel) {
 		case MONITOR_SEL.SCREEN:
 			if (global.control.monitor_line < 0) break;
 			var _text = ds_list_find_value(global.mech.dialog, global.control.monitor_line);
-			global.control.draw_holo_long(
-				string_copy(_text, 1, global.control.monitor_char)
+			global.control.set_holo(
+				string_copy(_text, 1, global.control.monitor_char), HOLO_STATE.LONG
 			);
 			break;
 		case MONITOR_SEL.POWER:
-			global.control.draw_holo("Monitor Power");
+			global.control.set_holo("Monitor Power", HOLO_STATE.SHORT);
 			break;
 		case MONITOR_SEL.LEFT:
-			global.control.draw_holo("Previous Log");
+			global.control.set_holo("Previous Log", HOLO_STATE.SHORT);
 			break;
 		case MONITOR_SEL.RIGHT:
-			global.control.draw_holo("Next Log");
+			global.control.set_holo("Next Log", HOLO_STATE.SHORT);
 			break;
 	}	
 }

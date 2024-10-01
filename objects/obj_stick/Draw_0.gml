@@ -46,5 +46,5 @@ if (global.control.sel_grab != -1) {
 }
 
 if (held || hovered) {
-	global.control.draw_holo(_d);
+	global.control.set_holo(_d, HOLO_STATE.SHORT);
 }
