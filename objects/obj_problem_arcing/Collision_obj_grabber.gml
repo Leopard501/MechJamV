@@ -1,6 +1,6 @@
 /// @description Discharge
 
-if (discharged) exit;
+if (discharged || !other.moving) exit;
 
 repeat (12) {
 	part_particles_create(global.ps_mechs, 
@@ -17,4 +17,5 @@ audio_stop_sound(global.control.amb);
 audio_play_sound(snd_shock, 1, false);
 audio_play_sound(snd_power_down, 1, false);
 
+recharge_time = random_range(400, 1000);
 discharged = true;
