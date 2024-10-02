@@ -44,4 +44,6 @@ with (global.control) {
 	}
 }
 
+global.control.holo_state = HOLO_STATE.NONE;
+
 #endregion
