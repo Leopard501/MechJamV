@@ -24,9 +24,9 @@ if (_tool != -1) {
 			break;
 		case TOOL_TYPE.PUMP:
 			if (global.control.c_pressure >= 80) {
-				_d = "Pump Coolant";	
+				_d = "Inject Coolant";	
 			} else if (global.control.o_pressure >= 80) {
-				_d = "Pump Oil";
+				_d = "Inject Oil";
 			} else {
 				_d = "! LOW PRESSURE !";
 			}
