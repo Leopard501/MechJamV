@@ -18,4 +18,6 @@ if (!mirrored) {
 
 draw_self();
 
-//draw_rectangle(min_x, min_y, max_x, max_y, true);
+if (hovered && global.control.holo_state == HOLO_STATE.NONE) {
+	global.control.set_holo(title, HOLO_STATE.SHORT);
+}

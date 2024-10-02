@@ -19,3 +19,7 @@ if (blink_time == 30) {
 	blinked = !blinked;	
 	blink_time = 0;
 }
+
+if (hovered && global.control.holo_state == HOLO_STATE.NONE) {
+	global.control.set_holo("Patches", HOLO_STATE.SHORT);
+}

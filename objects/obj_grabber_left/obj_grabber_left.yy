@@ -11,6 +11,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"max_x","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"140",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"min_y","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"max_y","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"115",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"title","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Left Grabber",},
   ],
   "parent":{
     "name":"grabbers",

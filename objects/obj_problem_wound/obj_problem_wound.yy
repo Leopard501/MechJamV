@@ -9,6 +9,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_problem","path":"objects/obj_problem/obj_problem.yy",},"propertyId":{"name":"sound_loop","path":"objects/obj_problem/obj_problem.yy",},"resource":{"name":"snd_lp_drip","path":"sounds/snd_lp_drip/snd_lp_drip.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_lp_drip",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_problem","path":"objects/obj_problem/obj_problem.yy",},"propertyId":{"name":"sound_loop_idx","path":"objects/obj_problem/obj_problem.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_problem","path":"objects/obj_problem/obj_problem.yy",},"propertyId":{"name":"title","path":"objects/obj_problem/obj_problem.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Wound",},
   ],
   "parent":{
     "name":"problems",

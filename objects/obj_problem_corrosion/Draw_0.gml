@@ -1,3 +1,5 @@
+event_inherited();
+
 //https://gamemaker.io/en/blog/dynamic-rendering-masks
 
 // fill with alpha 0

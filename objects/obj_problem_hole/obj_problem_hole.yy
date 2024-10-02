@@ -13,6 +13,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_problem","path":"objects/obj_problem/obj_problem.yy",},"propertyId":{"name":"sound_loop","path":"objects/obj_problem/obj_problem.yy",},"resource":{"name":"snd_lp_sparks","path":"sounds/snd_lp_sparks/snd_lp_sparks.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_lp_sparks",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_problem","path":"objects/obj_problem/obj_problem.yy",},"propertyId":{"name":"sound_loop_idx","path":"objects/obj_problem/obj_problem.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_problem","path":"objects/obj_problem/obj_problem.yy",},"propertyId":{"name":"required_tool","path":"objects/obj_problem/obj_problem.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"TOOL_TYPE.WELDER",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_problem","path":"objects/obj_problem/obj_problem.yy",},"propertyId":{"name":"title","path":"objects/obj_problem/obj_problem.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Damage",},
   ],
   "parent":{
     "name":"problems",

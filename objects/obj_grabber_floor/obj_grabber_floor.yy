@@ -13,6 +13,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"max_y","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"125",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"mirrored","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"idx","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_grabber","path":"objects/obj_grabber/obj_grabber.yy",},"propertyId":{"name":"title","path":"objects/obj_grabber/obj_grabber.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Floor Grabber",},
   ],
   "parent":{
     "name":"grabbers",

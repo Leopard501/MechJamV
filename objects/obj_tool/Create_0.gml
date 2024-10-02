@@ -12,3 +12,4 @@ resting = true;
 velocity = 0;
 activated = false;
 patched = false;
+hovered = false;

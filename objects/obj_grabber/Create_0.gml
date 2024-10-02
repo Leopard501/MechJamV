@@ -4,6 +4,7 @@ tool = -1;
 immobilized = false;
 moving = false;
 hovering_name = -1;
+hovered = false;
 
 acquire = function(_tool) {
 	if (tool != -1) return;

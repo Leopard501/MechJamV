@@ -13,6 +13,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_problem","path":"objects/obj_problem/obj_problem.yy",},"propertyId":{"name":"sound_loop","path":"objects/obj_problem/obj_problem.yy",},"resource":{"name":"snd_lp_parasite","path":"sounds/snd_lp_parasite/snd_lp_parasite.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_lp_parasite",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_problem","path":"objects/obj_problem/obj_problem.yy",},"propertyId":{"name":"sound_loop_idx","path":"objects/obj_problem/obj_problem.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_problem","path":"objects/obj_problem/obj_problem.yy",},"propertyId":{"name":"required_tool","path":"objects/obj_problem/obj_problem.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"TOOL_TYPE.SCRAPER",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_problem","path":"objects/obj_problem/obj_problem.yy",},"propertyId":{"name":"title","path":"objects/obj_problem/obj_problem.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Parasite",},
   ],
   "parent":{
     "name":"problems",
